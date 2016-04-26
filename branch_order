@@ -1,9 +1,9 @@
+fix-ci_branch_order
 android
 ci_test_views_counter
 ci_with_test_views
 classifier
 feature-frequency
-fix-ci_branch_order
 fix-ci_directory_bug
 fix-codeGeneration
 recalculate_old_samples
