@@ -1,3 +1,4 @@
+trustlevels
 android
 change_ci_slack_icon
 tests-lof
@@ -9,4 +10,3 @@ feature-frequency
 fix-ci_directory_bug
 fix-codeGeneration
 recalculate_old_samples
-trustlevels
