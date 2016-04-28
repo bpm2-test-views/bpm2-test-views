@@ -1,3 +1,4 @@
+recalculate_old_samples
 android
 tests-lof
 visualize_samples
@@ -10,4 +11,3 @@ classifier
 feature-frequency
 fix-ci_directory_bug
 fix-codeGeneration
-recalculate_old_samples
