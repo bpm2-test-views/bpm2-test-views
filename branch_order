@@ -1,9 +1,9 @@
+trustlevels
 feature-frequency
 recalculate_old_samples
 android
 tests-lof
 visualize_samples
-trustlevels
 change_ci_slack_icon
 fix-ci_branch_order
 ci_test_views_counter
