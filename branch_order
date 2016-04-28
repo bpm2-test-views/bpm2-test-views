@@ -1,3 +1,4 @@
+feature-frequency
 recalculate_old_samples
 android
 tests-lof
@@ -8,6 +9,5 @@ fix-ci_branch_order
 ci_test_views_counter
 ci_with_test_views
 classifier
-feature-frequency
 fix-ci_directory_bug
 fix-codeGeneration

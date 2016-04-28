@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">5</div>
+<div class="counter">7</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.004s</div>
+<div class="counter">1.397s</div>
 <p>duration</p>
 </div>
 </td>
@@ -63,6 +63,9 @@
 <li>
 <a href="#tab0">Tests</a>
 </li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -76,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">localOutlierFactor_calculatesInlierFactor</td>
-<td>0.001s</td>
+<td>0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -86,7 +89,7 @@
 </tr>
 <tr>
 <td class="success">localOutlierFactor_canHandleLessValues</td>
-<td>0.002s</td>
+<td>0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -96,10 +99,575 @@
 </tr>
 <tr>
 <td class="success">localOutlierFactor_classifiesOutlier</td>
-<td>0s</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">localOutlierFactor_classifiesSameRecord</td>
+<td>0.284s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">localOutlierFactor_classifiesSimilarRecord</td>
+<td>1.107s</td>
 <td class="success">passed</td>
 </tr>
 </table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Binned value: 3.15 | LOF: 1.35 | Probability: 0.74 | ✓
+Binned value: 3.45 | LOF: 0.91 | Probability: 1.00 | ✓
+Binned value: 3.32 | LOF: 0.91 | Probability: 1.00 | ✓
+Binned value: 2.93 | LOF: 0.91 | Probability: 1.00 | ✓
+Binned value: 2.64 | LOF: 1.23 | Probability: 0.81 | ✓
+Binned value: 2.66 | LOF: 1.01 | Probability: 0.99 | ✓
+Binned value: 2.54 | LOF: 1.91 | Probability: 0.52 | ✓
+Binned value: 2.59 | LOF: 1.28 | Probability: 0.78 | ✓
+Binned value: 2.73 | LOF: 1.06 | Probability: 0.95 | ✓
+Binned value: 2.60 | LOF: 0.99 | Probability: 1.00 | ✓
+Binned value: 2.68 | LOF: 0.99 | Probability: 1.00 | ✓
+Binned value: 2.50 | LOF: 1.72 | Probability: 0.58 | ✓
+Binned value: 2.42 | LOF: 1.28 | Probability: 0.78 | ✓
+Binned value: 2.53 | LOF: 1.57 | Probability: 0.64 | ✓
+Binned value: 2.38 | LOF: 3.22 | Probability: 0.31 | ⨯
+-------------------------------------------------------
+Average LOF: 1.36
+Average Probablity: 0.81
+-------------------------------------------------------
+Classification: 0.93
+-------------------------------------------------------
+Evaluating feature: AVERAGE_ABSOLUTE_ACCELEROMETER_X
+-------------------------------------------------------
+Binned value: 3.56 | LOF: 63.29 | Probability: 0.02 | ⨯
+Binned value: 3.76 | LOF: 59.00 | Probability: 0.02 | ⨯
+Binned value: 3.87 | LOF: 56.75 | Probability: 0.02 | ⨯
+Binned value: 3.28 | LOF: 69.57 | Probability: 0.01 | ⨯
+Binned value: 3.43 | LOF: 66.12 | Probability: 0.02 | ⨯
+Binned value: 3.28 | LOF: 69.50 | Probability: 0.01 | ⨯
+Binned value: 3.48 | LOF: 65.12 | Probability: 0.02 | ⨯
+Binned value: 3.43 | LOF: 66.17 | Probability: 0.02 | ⨯
+Binned value: 3.39 | LOF: 67.01 | Probability: 0.01 | ⨯
+Binned value: 3.33 | LOF: 68.36 | Probability: 0.01 | ⨯
+Binned value: 3.01 | LOF: 75.46 | Probability: 0.01 | ⨯
+Binned value: 3.50 | LOF: 64.65 | Probability: 0.02 | ⨯
+Binned value: 3.03 | LOF: 75.02 | Probability: 0.01 | ⨯
+Binned value: 3.68 | LOF: 60.74 | Probability: 0.02 | ⨯
+Binned value: 3.23 | LOF: 70.61 | Probability: 0.01 | ⨯
+Binned value: 3.28 | LOF: 69.54 | Probability: 0.01 | ⨯
+Binned value: 3.38 | LOF: 67.39 | Probability: 0.01 | ⨯
+Binned value: 3.49 | LOF: 65.01 | Probability: 0.02 | ⨯
+Binned value: 3.74 | LOF: 59.38 | Probability: 0.02 | ⨯
+Binned value: 3.66 | LOF: 61.25 | Probability: 0.02 | ⨯
+Binned value: 3.62 | LOF: 61.99 | Probability: 0.02 | ⨯
+Binned value: 3.48 | LOF: 65.08 | Probability: 0.02 | ⨯
+Binned value: 3.39 | LOF: 67.06 | Probability: 0.01 | ⨯
+Binned value: 3.14 | LOF: 72.48 | Probability: 0.01 | ⨯
+Binned value: 3.51 | LOF: 64.52 | Probability: 0.02 | ⨯
+Binned value: 3.22 | LOF: 70.86 | Probability: 0.01 | ⨯
+-------------------------------------------------------
+Average LOF: 66.23
+Average Probablity: 0.02
+-------------------------------------------------------
+Classification: 0.00
+-------------------------------------------------------
+Evaluating feature: AVERAGE_ABSOLUTE_ACCELEROMETER_Y
+-------------------------------------------------------
+Binned value: 10.09 | LOF: 14.82 | Probability: 0.07 | ⨯
+Binned value: 9.79 | LOF: 12.65 | Probability: 0.08 | ⨯
+Binned value: 10.08 | LOF: 14.74 | Probability: 0.07 | ⨯
+Binned value: 9.98 | LOF: 14.03 | Probability: 0.07 | ⨯
+Binned value: 10.11 | LOF: 14.97 | Probability: 0.07 | ⨯
+Binned value: 9.83 | LOF: 12.93 | Probability: 0.08 | ⨯
+Binned value: 10.10 | LOF: 14.86 | Probability: 0.07 | ⨯
+Binned value: 10.00 | LOF: 14.17 | Probability: 0.07 | ⨯
+Binned value: 10.01 | LOF: 14.24 | Probability: 0.07 | ⨯
+Binned value: 9.98 | LOF: 14.03 | Probability: 0.07 | ⨯
+Binned value: 9.96 | LOF: 13.91 | Probability: 0.07 | ⨯
+Binned value: 9.93 | LOF: 13.69 | Probability: 0.07 | ⨯
+Binned value: 10.20 | LOF: 15.59 | Probability: 0.06 | ⨯
+Binned value: 10.11 | LOF: 14.98 | Probability: 0.07 | ⨯
+Binned value: 10.13 | LOF: 15.11 | Probability: 0.07 | ⨯
+Binned value: 10.06 | LOF: 14.62 | Probability: 0.07 | ⨯
+Binned value: 10.04 | LOF: 14.42 | Probability: 0.07 | ⨯
+Binned value: 10.00 | LOF: 14.19 | Probability: 0.07 | ⨯
+Binned value: 10.45 | LOF: 17.38 | Probability: 0.06 | ⨯
+Binned value: 10.12 | LOF: 15.02 | Probability: 0.07 | ⨯
+Binned value: 10.30 | LOF: 16.30 | Probability: 0.06 | ⨯
+Binned value: 10.48 | LOF: 17.54 | Probability: 0.06 | ⨯
+Binned value: 9.95 | LOF: 13.83 | Probability: 0.07 | ⨯
+Binned value: 10.19 | LOF: 15.52 | Probability: 0.06 | ⨯
+Binned value: 10.31 | LOF: 16.37 | Probability: 0.06 | ⨯
+-------------------------------------------------------
+Average LOF: 14.80
+Average Probablity: 0.07
+-------------------------------------------------------
+Classification: 0.00
+-------------------------------------------------------
+Evaluating feature: AVERAGE_ABSOLUTE_ACCELEROMETER_Z
+-------------------------------------------------------
+Binned value: 2.39 | LOF: 1.57 | Probability: 0.64 | ✓
+Binned value: 2.63 | LOF: 0.99 | Probability: 1.00 | ✓
+Binned value: 2.24 | LOF: 0.95 | Probability: 1.00 | ✓
+Binned value: 2.52 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 2.51 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 2.66 | LOF: 0.96 | Probability: 1.00 | ✓
+Binned value: 2.75 | LOF: 1.41 | Probability: 0.71 | ✓
+Binned value: 3.08 | LOF: 1.28 | Probability: 0.78 | ✓
+Binned value: 2.67 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 2.88 | LOF: 0.99 | Probability: 1.00 | ✓
+Binned value: 2.58 | LOF: 0.89 | Probability: 1.00 | ✓
+Binned value: 2.82 | LOF: 1.07 | Probability: 0.94 | ✓
+Binned value: 2.52 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 2.88 | LOF: 0.99 | Probability: 1.00 | ✓
+Binned value: 2.66 | LOF: 0.96 | Probability: 1.00 | ✓
+Binned value: 2.85 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 2.80 | LOF: 1.25 | Probability: 0.80 | ✓
+Binned value: 2.57 | LOF: 0.86 | Probability: 1.00 | ✓
+Binned value: 2.80 | LOF: 1.37 | Probability: 0.73 | ✓
+Binned value: 2.71 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 2.86 | LOF: 0.88 | Probability: 1.00 | ✓
+Binned value: 2.66 | LOF: 0.93 | Probability: 1.00 | ✓
+Binned value: 3.05 | LOF: 1.27 | Probability: 0.79 | ✓
+Binned value: 2.69 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 3.23 | LOF: 2.09 | Probability: 0.48 | ⨯
+Binned value: 3.08 | LOF: 1.29 | Probability: 0.77 | ✓
+-------------------------------------------------------
+Average LOF: 1.12
+Average Probablity: 0.91
+-------------------------------------------------------
+Classification: 0.96
+-------------------------------------------------------
+Evaluating feature: AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_X
+-------------------------------------------------------
+Binned value: 1.86 | LOF: 8.23 | Probability: 0.12 | ⨯
+Binned value: 2.65 | LOF: 12.61 | Probability: 0.08 | ⨯
+Binned value: 2.37 | LOF: 11.10 | Probability: 0.09 | ⨯
+Binned value: 2.67 | LOF: 12.70 | Probability: 0.08 | ⨯
+Binned value: 2.06 | LOF: 9.37 | Probability: 0.11 | ⨯
+Binned value: 2.57 | LOF: 12.17 | Probability: 0.08 | ⨯
+Binned value: 2.67 | LOF: 12.72 | Probability: 0.08 | ⨯
+Binned value: 2.56 | LOF: 12.14 | Probability: 0.08 | ⨯
+Binned value: 2.45 | LOF: 11.50 | Probability: 0.09 | ⨯
+Binned value: 2.89 | LOF: 13.92 | Probability: 0.07 | ⨯
+Binned value: 3.08 | LOF: 14.96 | Probability: 0.07 | ⨯
+Binned value: 2.75 | LOF: 13.18 | Probability: 0.08 | ⨯
+Binned value: 2.76 | LOF: 13.21 | Probability: 0.08 | ⨯
+Binned value: 3.08 | LOF: 14.97 | Probability: 0.07 | ⨯
+Binned value: 2.41 | LOF: 11.29 | Probability: 0.09 | ⨯
+Binned value: 3.02 | LOF: 14.68 | Probability: 0.07 | ⨯
+Binned value: 2.88 | LOF: 13.89 | Probability: 0.07 | ⨯
+Binned value: 2.97 | LOF: 14.36 | Probability: 0.07 | ⨯
+Binned value: 3.44 | LOF: 16.97 | Probability: 0.06 | ⨯
+Binned value: 2.93 | LOF: 14.16 | Probability: 0.07 | ⨯
+Binned value: 3.38 | LOF: 16.64 | Probability: 0.06 | ⨯
+Binned value: 3.01 | LOF: 14.62 | Probability: 0.07 | ⨯
+Binned value: 3.10 | LOF: 15.11 | Probability: 0.07 | ⨯
+Binned value: 2.78 | LOF: 13.31 | Probability: 0.08 | ⨯
+Binned value: 3.34 | LOF: 16.41 | Probability: 0.06 | ⨯
+Binned value: 2.99 | LOF: 14.49 | Probability: 0.07 | ⨯
+-------------------------------------------------------
+Average LOF: 13.41
+Average Probablity: 0.08
+-------------------------------------------------------
+Classification: 0.00
+-------------------------------------------------------
+Evaluating feature: AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Y
+-------------------------------------------------------
+Binned value: 20.29 | LOF: 18.87 | Probability: 0.05 | ⨯
+Binned value: 19.74 | LOF: 16.55 | Probability: 0.06 | ⨯
+Binned value: 19.49 | LOF: 15.46 | Probability: 0.06 | ⨯
+Binned value: 19.66 | LOF: 16.18 | Probability: 0.06 | ⨯
+Binned value: 20.12 | LOF: 18.15 | Probability: 0.06 | ⨯
+Binned value: 20.01 | LOF: 17.69 | Probability: 0.06 | ⨯
+Binned value: 20.25 | LOF: 18.72 | Probability: 0.05 | ⨯
+Binned value: 19.92 | LOF: 17.32 | Probability: 0.06 | ⨯
+Binned value: 20.26 | LOF: 18.76 | Probability: 0.05 | ⨯
+Binned value: 20.66 | LOF: 20.44 | Probability: 0.05 | ⨯
+Binned value: 20.21 | LOF: 18.52 | Probability: 0.05 | ⨯
+Binned value: 19.86 | LOF: 17.07 | Probability: 0.06 | ⨯
+Binned value: 20.38 | LOF: 19.26 | Probability: 0.05 | ⨯
+Binned value: 20.23 | LOF: 18.61 | Probability: 0.05 | ⨯
+Binned value: 20.27 | LOF: 18.80 | Probability: 0.05 | ⨯
+Binned value: 20.13 | LOF: 18.19 | Probability: 0.05 | ⨯
+Binned value: 20.10 | LOF: 18.06 | Probability: 0.06 | ⨯
+Binned value: 20.01 | LOF: 17.67 | Probability: 0.06 | ⨯
+Binned value: 20.95 | LOF: 21.66 | Probability: 0.05 | ⨯
+Binned value: 20.24 | LOF: 18.66 | Probability: 0.05 | ⨯
+Binned value: 20.65 | LOF: 20.42 | Probability: 0.05 | ⨯
+Binned value: 20.42 | LOF: 19.45 | Probability: 0.05 | ⨯
+Binned value: 20.42 | LOF: 19.42 | Probability: 0.05 | ⨯
+Binned value: 20.14 | LOF: 18.25 | Probability: 0.05 | ⨯
+Binned value: 19.84 | LOF: 16.97 | Probability: 0.06 | ⨯
+-------------------------------------------------------
+Average LOF: 18.37
+Average Probablity: 0.05
+-------------------------------------------------------
+Classification: 0.00
+-------------------------------------------------------
+Evaluating feature: AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Z
+-------------------------------------------------------
+Binned value: 2.13 | LOF: 1.02 | Probability: 0.98 | ✓
+Binned value: 1.99 | LOF: 1.09 | Probability: 0.92 | ✓
+Binned value: 1.55 | LOF: 1.30 | Probability: 0.77 | ✓
+Binned value: 1.86 | LOF: 0.96 | Probability: 1.00 | ✓
+Binned value: 2.43 | LOF: 0.89 | Probability: 1.00 | ✓
+Binned value: 2.19 | LOF: 0.97 | Probability: 1.00 | ✓
+Binned value: 2.75 | LOF: 1.59 | Probability: 0.63 | ✓
+Binned value: 2.36 | LOF: 1.89 | Probability: 0.53 | ✓
+Binned value: 2.58 | LOF: 1.13 | Probability: 0.89 | ✓
+Binned value: 2.09 | LOF: 1.03 | Probability: 0.97 | ✓
+Binned value: 2.45 | LOF: 0.98 | Probability: 1.00 | ✓
+Binned value: 1.90 | LOF: 0.96 | Probability: 1.00 | ✓
+Binned value: 2.50 | LOF: 1.77 | Probability: 0.56 | ✓
+Binned value: 2.58 | LOF: 1.13 | Probability: 0.89 | ✓
+Binned value: 2.61 | LOF: 1.13 | Probability: 0.89 | ✓
+Binned value: 2.71 | LOF: 1.50 | Probability: 0.67 | ✓
+Binned value: 2.43 | LOF: 0.98 | Probability: 1.00 | ✓
+Binned value: 2.49 | LOF: 1.65 | Probability: 0.61 | ✓
+Binned value: 2.31 | LOF: 1.14 | Probability: 0.88 | ✓
+Binned value: 2.56 | LOF: 1.13 | Probability: 0.89 | ✓
+Binned value: 2.55 | LOF: 1.13 | Probability: 0.89 | ✓
+Binned value: 2.70 | LOF: 1.47 | Probability: 0.68 | ✓
+Binned value: 2.45 | LOF: 1.16 | Probability: 0.87 | ✓
+Binned value: 2.77 | LOF: 1.67 | Probability: 0.60 | ✓
+Binned value: 2.60 | LOF: 1.13 | Probability: 0.89 | ✓
+-------------------------------------------------------
+Average LOF: 1.23
+Average Probablity: 0.84
+-------------------------------------------------------
+Classification: 1.00
+-------------------------------------------------------
+Evaluating feature: AVERAGE_ACCELEROMETER_X
+-------------------------------------------------------
+Binned value: 1.34 | LOF: 39.19 | Probability: 0.03 | ⨯
+Binned value: 1.10 | LOF: 41.07 | Probability: 0.02 | ⨯
+Binned value: 1.02 | LOF: 41.78 | Probability: 0.02 | ⨯
+Binned value: 1.09 | LOF: 41.20 | Probability: 0.02 | ⨯
+Binned value: 1.24 | LOF: 39.99 | Probability: 0.03 | ⨯
+Binned value: 0.64 | LOF: 44.80 | Probability: 0.02 | ⨯
+Binned value: 0.80 | LOF: 43.47 | Probability: 0.02 | ⨯
+Binned value: 0.87 | LOF: 42.96 | Probability: 0.02 | ⨯
+Binned value: 1.03 | LOF: 41.70 | Probability: 0.02 | ⨯
+Binned value: 0.96 | LOF: 42.22 | Probability: 0.02 | ⨯
+Binned value: 0.47 | LOF: 46.13 | Probability: 0.02 | ⨯
+Binned value: 0.21 | LOF: 48.21 | Probability: 0.02 | ⨯
+Binned value: 0.42 | LOF: 46.57 | Probability: 0.02 | ⨯
+Binned value: 0.92 | LOF: 42.52 | Probability: 0.02 | ⨯
+Binned value: 0.80 | LOF: 43.53 | Probability: 0.02 | ⨯
+Binned value: 0.50 | LOF: 45.94 | Probability: 0.02 | ⨯
+Binned value: 0.51 | LOF: 45.80 | Probability: 0.02 | ⨯
+Binned value: 0.31 | LOF: 47.47 | Probability: 0.02 | ⨯
+Binned value: 0.72 | LOF: 44.15 | Probability: 0.02 | ⨯
+Binned value: 0.25 | LOF: 47.95 | Probability: 0.02 | ⨯
+Binned value: 0.46 | LOF: 46.19 | Probability: 0.02 | ⨯
+Binned value: 0.27 | LOF: 47.79 | Probability: 0.02 | ⨯
+Binned value: 0.26 | LOF: 47.82 | Probability: 0.02 | ⨯
+Binned value: 0.19 | LOF: 48.43 | Probability: 0.02 | ⨯
+Binned value: 0.21 | LOF: 48.23 | Probability: 0.02 | ⨯
+-------------------------------------------------------
+Average LOF: 44.60
+Average Probablity: 0.02
+-------------------------------------------------------
+Classification: 0.00
+-------------------------------------------------------
+Evaluating feature: AVERAGE_ACCELEROMETER_Y
+-------------------------------------------------------
+Binned value: -10.01 | LOF: 17.91 | Probability: 0.06 | ⨯
+Binned value: -9.63 | LOF: 14.87 | Probability: 0.07 | ⨯
+Binned value: -9.67 | LOF: 15.22 | Probability: 0.07 | ⨯
+Binned value: -9.83 | LOF: 16.44 | Probability: 0.06 | ⨯
+Binned value: -9.97 | LOF: 17.54 | Probability: 0.06 | ⨯
+Binned value: -9.75 | LOF: 15.85 | Probability: 0.06 | ⨯
+Binned value: -10.03 | LOF: 18.02 | Probability: 0.06 | ⨯
+Binned value: -9.96 | LOF: 17.50 | Probability: 0.06 | ⨯
+Binned value: -10.15 | LOF: 18.97 | Probability: 0.05 | ⨯
+Binned value: -10.33 | LOF: 20.41 | Probability: 0.05 | ⨯
+Binned value: -10.01 | LOF: 17.85 | Probability: 0.06 | ⨯
+Binned value: -9.80 | LOF: 16.25 | Probability: 0.06 | ⨯
+Binned value: -9.82 | LOF: 16.34 | Probability: 0.06 | ⨯
+Binned value: -10.06 | LOF: 18.32 | Probability: 0.05 | ⨯
+Binned value: -10.34 | LOF: 20.50 | Probability: 0.05 | ⨯
+Binned value: -10.06 | LOF: 18.31 | Probability: 0.05 | ⨯
+Binned value: -9.96 | LOF: 17.50 | Probability: 0.06 | ⨯
+Binned value: -10.00 | LOF: 17.83 | Probability: 0.06 | ⨯
+Binned value: -10.39 | LOF: 20.87 | Probability: 0.05 | ⨯
+Binned value: -10.12 | LOF: 18.75 | Probability: 0.05 | ⨯
+Binned value: -10.25 | LOF: 19.77 | Probability: 0.05 | ⨯
+Binned value: -10.12 | LOF: 18.78 | Probability: 0.05 | ⨯
+Binned value: -10.07 | LOF: 18.36 | Probability: 0.05 | ⨯
+Binned value: -9.96 | LOF: 17.50 | Probability: 0.06 | ⨯
+Binned value: -10.05 | LOF: 18.20 | Probability: 0.05 | ⨯
+-------------------------------------------------------
+Average LOF: 17.91
+Average Probablity: 0.06
+-------------------------------------------------------
+Classification: 0.00
+-------------------------------------------------------
+Evaluating feature: AVERAGE_ACCELEROMETER_Z
+-------------------------------------------------------
+Binned value: 0.35 | LOF: 1.18 | Probability: 0.85 | ✓
+Binned value: 0.63 | LOF: 1.92 | Probability: 0.52 | ✓
+Binned value: 0.68 | LOF: 0.90 | Probability: 1.00 | ✓
+Binned value: 0.36 | LOF: 1.18 | Probability: 0.85 | ✓
+Binned value: 0.14 | LOF: 1.21 | Probability: 0.83 | ✓
+Binned value: 0.55 | LOF: 2.65 | Probability: 0.38 | ⨯
+Binned value: 0.15 | LOF: 1.20 | Probability: 0.84 | ✓
+Binned value: 0.24 | LOF: 0.86 | Probability: 1.00 | ✓
+Binned value: 0.23 | LOF: 0.86 | Probability: 1.00 | ✓
+Binned value: 0.44 | LOF: 1.04 | Probability: 0.96 | ✓
+Binned value: 0.23 | LOF: 0.86 | Probability: 1.00 | ✓
+Binned value: 0.63 | LOF: 1.86 | Probability: 0.54 | ✓
+Binned value: 0.21 | LOF: 0.86 | Probability: 1.00 | ✓
+Binned value: 0.16 | LOF: 1.14 | Probability: 0.88 | ✓
+Binned value: 0.05 | LOF: 2.06 | Probability: 0.49 | ⨯
+Binned value: 0.09 | LOF: 1.67 | Probability: 0.60 | ✓
+Binned value: 0.13 | LOF: 1.27 | Probability: 0.79 | ✓
+Binned value: 0.31 | LOF: 1.10 | Probability: 0.91 | ✓
+Binned value: 0.39 | LOF: 0.94 | Probability: 1.00 | ✓
+Binned value: 0.30 | LOF: 1.10 | Probability: 0.91 | ✓
+Binned value: 0.31 | LOF: 1.10 | Probability: 0.91 | ✓
+Binned value: 0.40 | LOF: 0.94 | Probability: 1.00 | ✓
+Binned value: 0.45 | LOF: 0.93 | Probability: 1.00 | ✓
+Binned value: 0.46 | LOF: 0.93 | Probability: 1.00 | ✓
+Binned value: 0.43 | LOF: 1.19 | Probability: 0.84 | ✓
+-------------------------------------------------------
+Average LOF: 1.24
+Average Probablity: 0.84
+-------------------------------------------------------
+Classification: 0.92
+-------------------------------------------------------
+Evaluating feature: STANDARD_DEVIATION_ACCELEROMETER_X
+-------------------------------------------------------
+Binned value: 2.20 | LOF: 1.12 | Probability: 0.89 | ✓
+Binned value: 2.29 | LOF: 3.00 | Probability: 0.33 | ⨯
+Binned value: 2.16 | LOF: 0.97 | Probability: 1.00 | ✓
+Binned value: 2.27 | LOF: 2.47 | Probability: 0.40 | ⨯
+Binned value: 2.06 | LOF: 1.46 | Probability: 0.69 | ✓
+Binned value: 2.09 | LOF: 3.43 | Probability: 0.29 | ⨯
+Binned value: 2.15 | LOF: 1.02 | Probability: 0.98 | ✓
+Binned value: 2.14 | LOF: 1.02 | Probability: 0.98 | ✓
+Binned value: 2.15 | LOF: 1.02 | Probability: 0.98 | ✓
+Binned value: 2.13 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 2.19 | LOF: 0.96 | Probability: 1.00 | ✓
+Binned value: 2.01 | LOF: 0.94 | Probability: 1.00 | ✓
+Binned value: 2.16 | LOF: 0.99 | Probability: 1.00 | ✓
+Binned value: 2.04 | LOF: 1.62 | Probability: 0.62 | ✓
+Binned value: 2.05 | LOF: 1.50 | Probability: 0.67 | ✓
+Binned value: 2.10 | LOF: 2.12 | Probability: 0.47 | ⨯
+Binned value: 2.12 | LOF: 1.55 | Probability: 0.65 | ✓
+Binned value: 2.18 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 2.16 | LOF: 0.98 | Probability: 1.00 | ✓
+Binned value: 2.16 | LOF: 0.99 | Probability: 1.00 | ✓
+Binned value: 2.13 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 2.08 | LOF: 3.54 | Probability: 0.28 | ⨯
+Binned value: 2.08 | LOF: 3.84 | Probability: 0.26 | ⨯
+Binned value: 2.09 | LOF: 2.98 | Probability: 0.34 | ⨯
+-------------------------------------------------------
+Average LOF: 1.69
+Average Probablity: 0.74
+-------------------------------------------------------
+Classification: 0.71
+-------------------------------------------------------
+Evaluating feature: STANDARD_DEVIATION_ACCELEROMETER_Y
+-------------------------------------------------------
+Binned value: 1.78 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 1.80 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 1.77 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 1.86 | LOF: 0.99 | Probability: 1.00 | ✓
+Binned value: 1.79 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 1.82 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 1.93 | LOF: 1.64 | Probability: 0.61 | ✓
+Binned value: 1.88 | LOF: 12.69 | Probability: 0.08 | ⨯
+Binned value: 1.93 | LOF: 1.73 | Probability: 0.58 | ✓
+Binned value: 1.89 | LOF: 0.98 | Probability: 1.00 | ✓
+Binned value: 1.98 | LOF: 3.59 | Probability: 0.28 | ⨯
+Binned value: 1.90 | LOF: 0.83 | Probability: 1.00 | ✓
+Binned value: 1.98 | LOF: 3.60 | Probability: 0.28 | ⨯
+Binned value: 1.91 | LOF: 1.06 | Probability: 0.94 | ✓
+Binned value: 1.94 | LOF: 2.13 | Probability: 0.47 | ⨯
+Binned value: 1.97 | LOF: 3.14 | Probability: 0.32 | ⨯
+Binned value: 1.92 | LOF: 1.60 | Probability: 0.63 | ✓
+Binned value: 2.01 | LOF: 5.45 | Probability: 0.18 | ⨯
+Binned value: 1.97 | LOF: 3.38 | Probability: 0.30 | ⨯
+Binned value: 2.00 | LOF: 4.87 | Probability: 0.21 | ⨯
+Binned value: 1.97 | LOF: 3.41 | Probability: 0.29 | ⨯
+Binned value: 1.97 | LOF: 3.26 | Probability: 0.31 | ⨯
+Binned value: 1.96 | LOF: 2.67 | Probability: 0.37 | ⨯
+Binned value: 1.96 | LOF: 2.87 | Probability: 0.35 | ⨯
+-------------------------------------------------------
+Average LOF: 2.70
+Average Probablity: 0.59
+-------------------------------------------------------
+Classification: 0.50
+-------------------------------------------------------
+Evaluating feature: STANDARD_DEVIATION_ACCELEROMETER_Z
+-------------------------------------------------------
+Binned value: 1.82 | LOF: 1.11 | Probability: 0.90 | ✓
+Binned value: 1.83 | LOF: 1.15 | Probability: 0.87 | ✓
+Binned value: 1.72 | LOF: 1.91 | Probability: 0.52 | ✓
+Binned value: 1.72 | LOF: 1.80 | Probability: 0.55 | ✓
+Binned value: 1.90 | LOF: 0.94 | Probability: 1.00 | ✓
+Binned value: 1.91 | LOF: 1.36 | Probability: 0.74 | ✓
+Binned value: 2.04 | LOF: 2.63 | Probability: 0.38 | ⨯
+Binned value: 1.93 | LOF: 0.91 | Probability: 1.00 | ✓
+Binned value: 2.04 | LOF: 2.65 | Probability: 0.38 | ⨯
+Binned value: 1.97 | LOF: 0.94 | Probability: 1.00 | ✓
+Binned value: 2.05 | LOF: 2.75 | Probability: 0.36 | ⨯
+Binned value: 1.94 | LOF: 1.02 | Probability: 0.98 | ✓
+Binned value: 1.90 | LOF: 0.93 | Probability: 1.00 | ✓
+Binned value: 1.98 | LOF: 0.94 | Probability: 1.00 | ✓
+Binned value: 1.92 | LOF: 1.29 | Probability: 0.77 | ✓
+Binned value: 2.00 | LOF: 1.73 | Probability: 0.58 | ✓
+Binned value: 1.86 | LOF: 1.01 | Probability: 0.99 | ✓
+Binned value: 1.92 | LOF: 0.95 | Probability: 1.00 | ✓
+Binned value: 1.94 | LOF: 0.91 | Probability: 1.00 | ✓
+Binned value: 1.95 | LOF: 1.32 | Probability: 0.76 | ✓
+Binned value: 2.01 | LOF: 2.06 | Probability: 0.48 | ⨯
+Binned value: 2.02 | LOF: 2.44 | Probability: 0.41 | ⨯
+Binned value: 2.14 | LOF: 4.82 | Probability: 0.21 | ⨯
+Binned value: 2.11 | LOF: 4.14 | Probability: 0.24 | ⨯
+-------------------------------------------------------
+Average LOF: 1.74
+Average Probablity: 0.71
+-------------------------------------------------------
+Classification: 0.71
+-------------------------------------------------------
+Evaluating feature: FREQUENCY_ACCELEROMETER_X
+-------------------------------------------------------
+Binned value: 5.71 | LOF: 2.08 | Probability: 0.48 | ⨯
+Binned value: 2.75 | LOF: 0.67 | Probability: 1.00 | ✓
+Binned value: 2.77 | LOF: 0.52 | Probability: 1.00 | ✓
+-------------------------------------------------------
+Average LOF: 1.09
+Average Probablity: 0.83
+-------------------------------------------------------
+Classification: 0.67
+-------------------------------------------------------
+Evaluating feature: FREQUENCY_ACCELEROMETER_Y
+-------------------------------------------------------
+Binned value: 18.21 | LOF: 36.17 | Probability: 0.03 | ⨯
+Binned value: 14.79 | LOF: 4.28 | Probability: 0.23 | ⨯
+Binned value: 2.77 | LOF: 107.92 | Probability: 0.01 | ⨯
+-------------------------------------------------------
+Average LOF: 49.45
+Average Probablity: 0.09
+-------------------------------------------------------
+Classification: 0.00
+-------------------------------------------------------
+Evaluating feature: FREQUENCY_ACCELEROMETER_Z
+-------------------------------------------------------
+Binned value: 3.75 | LOF: 0.56 | Probability: 1.00 | ✓
+Binned value: 1.79 | LOF: 1.02 | Probability: 0.98 | ✓
+Binned value: 1.83 | LOF: 1.01 | Probability: 0.99 | ✓
+-------------------------------------------------------
+Average LOF: 0.87
+Average Probablity: 0.99
+-------------------------------------------------------
+Classification: 1.00
+-------------------------------------------------------
+Evaluating feature: VARIANCE_ACCELEROMETER
+-------------------------------------------------------
+Binned value: 3.11 | LOF: 1.13 | Probability: 0.89 | ✓
+Binned value: 3.36 | LOF: 0.91 | Probability: 1.00 | ✓
+Binned value: 3.48 | LOF: 2.62 | Probability: 0.38 | ⨯
+Binned value: 3.39 | LOF: 1.08 | Probability: 0.93 | ✓
+Binned value: 3.28 | LOF: 1.54 | Probability: 0.65 | ✓
+Binned value: 3.48 | LOF: 2.47 | Probability: 0.40 | ⨯
+Binned value: 3.41 | LOF: 1.18 | Probability: 0.85 | ✓
+Binned value: 3.32 | LOF: 0.99 | Probability: 1.00 | ✓
+Binned value: 3.36 | LOF: 0.91 | Probability: 1.00 | ✓
+Binned value: 3.39 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 3.55 | LOF: 1.36 | Probability: 0.74 | ✓
+Binned value: 3.44 | LOF: 1.25 | Probability: 0.80 | ✓
+Binned value: 3.54 | LOF: 1.17 | Probability: 0.85 | ✓
+Binned value: 3.44 | LOF: 1.34 | Probability: 0.74 | ✓
+Binned value: 3.46 | LOF: 1.04 | Probability: 0.96 | ✓
+Binned value: 3.60 | LOF: 2.93 | Probability: 0.34 | ⨯
+Binned value: 3.49 | LOF: 0.98 | Probability: 1.00 | ✓
+Binned value: 3.38 | LOF: 1.01 | Probability: 0.99 | ✓
+Binned value: 3.60 | LOF: 2.83 | Probability: 0.35 | ⨯
+Binned value: 3.49 | LOF: 1.55 | Probability: 0.64 | ✓
+Binned value: 3.42 | LOF: 0.93 | Probability: 1.00 | ✓
+Binned value: 3.40 | LOF: 1.12 | Probability: 0.89 | ✓
+Binned value: 3.32 | LOF: 0.99 | Probability: 1.00 | ✓
+Binned value: 3.51 | LOF: 1.15 | Probability: 0.87 | ✓
+Binned value: 3.41 | LOF: 0.98 | Probability: 1.00 | ✓
+Binned value: 3.46 | LOF: 1.08 | Probability: 0.93 | ✓
+Binned value: 3.53 | LOF: 1.17 | Probability: 0.86 | ✓
+Binned value: 3.51 | LOF: 1.08 | Probability: 0.92 | ✓
+Binned value: 3.46 | LOF: 1.08 | Probability: 0.93 | ✓
+Binned value: 3.52 | LOF: 1.19 | Probability: 0.84 | ✓
+Binned value: 3.53 | LOF: 1.17 | Probability: 0.86 | ✓
+Binned value: 3.51 | LOF: 1.11 | Probability: 0.90 | ✓
+Binned value: 3.38 | LOF: 0.97 | Probability: 1.00 | ✓
+Binned value: 3.57 | LOF: 1.73 | Probability: 0.58 | ✓
+Binned value: 3.63 | LOF: 4.46 | Probability: 0.22 | ⨯
+Binned value: 3.56 | LOF: 1.54 | Probability: 0.65 | ✓
+Binned value: 3.70 | LOF: 7.20 | Probability: 0.14 | ⨯
+-------------------------------------------------------
+Average LOF: 1.57
+Average Probablity: 0.79
+-------------------------------------------------------
+Classification: 0.84
+-------------------------------------------------------
+Evaluating feature: AVERAGE_RESULTANT_ACCELEROMETER
+-------------------------------------------------------
+Binned value: 1059.74 | LOF: 1.07 | Probability: 0.94 | ✓
+Binned value: 1094.89 | LOF: 3.25 | Probability: 0.31 | ⨯
+Binned value: 1037.52 | LOF: 1.40 | Probability: 0.71 | ✓
+Binned value: 1075.29 | LOF: 1.45 | Probability: 0.69 | ✓
+Binned value: 1069.37 | LOF: 1.12 | Probability: 0.89 | ✓
+Binned value: 1060.81 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 1089.00 | LOF: 2.61 | Probability: 0.38 | ⨯
+Binned value: 1088.03 | LOF: 2.51 | Probability: 0.40 | ⨯
+Binned value: 1094.35 | LOF: 3.17 | Probability: 0.32 | ⨯
+Binned value: 1114.64 | LOF: 6.20 | Probability: 0.16 | ⨯
+Binned value: 1090.53 | LOF: 2.76 | Probability: 0.36 | ⨯
+Binned value: 1056.15 | LOF: 1.01 | Probability: 0.99 | ✓
+Binned value: 1065.09 | LOF: 0.87 | Probability: 1.00 | ✓
+Binned value: 1092.63 | LOF: 2.97 | Probability: 0.34 | ⨯
+Binned value: 1050.11 | LOF: 1.00 | Probability: 1.00 | ✓
+Binned value: 1097.94 | LOF: 3.71 | Probability: 0.27 | ⨯
+Binned value: 1074.00 | LOF: 1.38 | Probability: 0.72 | ✓
+Binned value: 1100.78 | LOF: 4.13 | Probability: 0.24 | ⨯
+Binned value: 1111.83 | LOF: 5.78 | Probability: 0.17 | ⨯
+Binned value: 1077.52 | LOF: 1.56 | Probability: 0.64 | ✓
+Binned value: 1058.85 | LOF: 1.13 | Probability: 0.88 | ✓
+Binned value: 1080.70 | LOF: 1.78 | Probability: 0.56 | ✓
+Binned value: 1090.88 | LOF: 2.79 | Probability: 0.36 | ⨯
+Binned value: 1116.33 | LOF: 6.45 | Probability: 0.16 | ⨯
+-------------------------------------------------------
+Average LOF: 2.55
+Average Probablity: 0.56
+-------------------------------------------------------
+Classification: 0.50
+-------------------------------------------------------
+Classified features:
+ - AVERAGE_ABSOLUTE_ACCELEROMETER_Z
+ - AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Z
+ - AVERAGE_ACCELEROMETER_Z
+ - FREQUENCY_ACCELEROMETER_Z
+ - VARIANCE_ACCELEROMETER
+-------------------------------------------------------
+Not classified features:
+ - AVERAGE_ABSOLUTE_ACCELEROMETER_X
+ - AVERAGE_ABSOLUTE_ACCELEROMETER_Y
+ - AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_X
+ - AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Y
+ - AVERAGE_ACCELEROMETER_X
+ - AVERAGE_ACCELEROMETER_Y
+ - STANDARD_DEVIATION_ACCELEROMETER_X
+ - STANDARD_DEVIATION_ACCELEROMETER_Y
+ - STANDARD_DEVIATION_ACCELEROMETER_Z
+ - FREQUENCY_ACCELEROMETER_X
+ - FREQUENCY_ACCELEROMETER_Y
+ - AVERAGE_RESULTANT_ACCELEROMETER
+-------------------------------------------------------
+Total classification ratio: 0.29
+</pre>
+</span>
 </div>
 </div>
 <div id="footer">
@@ -109,7 +677,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.10</a> at Apr 28, 2016 2:01:52 PM</p>
+<a href="http://www.gradle.org">Gradle 2.10</a> at Apr 28, 2016 2:16:25 PM</p>
 </div>
 </div>
 </body>
