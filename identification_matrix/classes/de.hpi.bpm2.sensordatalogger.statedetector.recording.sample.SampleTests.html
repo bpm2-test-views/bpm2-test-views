@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">1</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.061s</div>
+<div class="counter">0.053s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">50%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,13 +61,73 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Tests</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Standard output</a>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="removeOutliersFromFeatures_keepsInliers"></a>
+<h3 class="failures">removeOutliersFromFeatures_keepsInliers</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: Removed too many features
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at de.hpi.bpm2.sensordatalogger.statedetector.recording.sample.SampleTests.removeOutliersFromFeatures_keepsInliers(SampleTests.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:105)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:56)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -78,97 +138,97 @@
 </tr>
 </thead>
 <tr>
-<td class="success">removeOutliersFromFeatures_keepsInliers</td>
-<td>0.027s</td>
-<td class="success">passed</td>
+<td class="failures">removeOutliersFromFeatures_keepsInliers</td>
+<td>0.033s</td>
+<td class="failures">failed</td>
 </tr>
 <tr>
 <td class="success">removeOutliersFromFeatures_removesOutliers</td>
-<td>0.034s</td>
+<td>0.020s</td>
 <td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Standard output</h2>
 <span class="code">
 <pre>Generating fake features
 -------------------------------------------------------
-5.0999494
-5.1219873
-5.004675
-5.101656
-5.055617
-5.0479145
-5.028982
-5.0588655
-5.050675
-5.0507674
+5.031954
+5.0495257
+5.1026278
+5.0080767
+5.106031
+5.0785594
+5.043576
+5.0009484
+5.0955396
+5.099936
 -------------------------------------------------------
-6.096986
-6.0000477
-6.0681005
-6.006761
-6.0050406
-6.085733
-6.0213175
-6.066066
-6.0182676
-6.085509
+6.080731
+6.1077166
+6.0258555
+6.0911117
+6.0466275
+6.013245
+6.0830474
+6.0274205
+6.071212
+6.0825887
 -------------------------------------------------------
-7.018891
-7.058304
-7.066812
-7.0257087
-7.0103292
-7.048123
-7.0362473
-7.1070957
-7.094448
-7.110913
--------------------------------------------------------
-Generating fake features
--------------------------------------------------------
-22.076035
--------------------------------------------------------
-23.353813
--------------------------------------------------------
-22.15406
+7.0338545
+7.0824676
+7.024993
+7.0621214
+7.003523
+7.0221605
+7.014994
+7.0112476
+7.0107026
+7.046721
 -------------------------------------------------------
 Generating fake features
 -------------------------------------------------------
-5.112219
-5.052192
-5.039155
-5.065405
-5.03869
-5.0549774
-5.006691
-5.103748
-5.1184697
-5.0715127
+22.349054
 -------------------------------------------------------
-6.1072545
-6.0151367
-6.084776
-6.090784
-6.063973
-6.0333877
-6.1030426
-6.0216255
-6.03107
-6.008993
+21.436634
 -------------------------------------------------------
-7.099408
-7.042083
-7.0132585
-7.0178003
-7.1215186
-7.067973
-7.0765166
-7.019113
-7.056584
-7.055023
+22.362303
+-------------------------------------------------------
+Generating fake features
+-------------------------------------------------------
+5.0197043
+5.1113853
+5.015995
+5.0898314
+5.0866523
+5.092524
+5.0878673
+5.05084
+5.00352
+5.1226125
+-------------------------------------------------------
+6.096196
+6.0720253
+6.066413
+6.004744
+6.022477
+6.103813
+6.109499
+6.121233
+6.108393
+6.0545087
+-------------------------------------------------------
+7.1171856
+7.0264974
+7.101918
+7.0547976
+7.079767
+7.028572
+7.073393
+7.067966
+7.058805
+7.0691595
 -------------------------------------------------------
 </pre>
 </span>
@@ -181,7 +241,7 @@ Generating fake features
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.10</a> at May 2, 2016 8:31:31 AM</p>
+<a href="http://www.gradle.org">Gradle 2.10</a> at May 2, 2016 9:01:44 AM</p>
 </div>
 </div>
 </body>
