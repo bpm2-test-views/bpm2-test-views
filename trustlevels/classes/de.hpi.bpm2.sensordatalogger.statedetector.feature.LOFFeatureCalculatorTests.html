@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">7</div>
+<div class="counter">8</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.583s</div>
+<div class="counter">20.566s</div>
 <p>duration</p>
 </div>
 </td>
@@ -78,18 +78,23 @@
 </tr>
 </thead>
 <tr>
+<td class="success">calculateIdentificationMatrix</td>
+<td>20.164s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">localOutlierFactor_calculatesInlierFactor</td>
 <td>0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">localOutlierFactor_calculatesOutlierFactor</td>
-<td>0.001s</td>
+<td>0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">localOutlierFactor_canHandleLessValues</td>
-<td>0s</td>
+<td>0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -99,17 +104,17 @@
 </tr>
 <tr>
 <td class="success">localOutlierFactor_classifiesOutlier</td>
-<td>0.001s</td>
+<td>0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">localOutlierFactor_classifiesSameRecord</td>
-<td>0.047s</td>
+<td>0.057s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">localOutlierFactor_classifiesSimilarRecord</td>
-<td>0.533s</td>
+<td>0.343s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -117,7 +122,16 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>Binned value: 3.43 | LOF: 1.04 | Probability: 0.96 | ✓
+<pre>|Learned/Current|ajay           |aron           |julius         |marvin         |niklas         |stephan        |willi          |
+|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|ajay           |**0.80**       |0.56           |0.44           |0.52           |0.38           |0.52           |0.54           |
+|aron           |0.68           |**0.83**       |0.54           |0.67           |0.40           |0.61           |0.56           |
+|julius         |0.64           |0.66           |**0.84**       |0.59           |0.47           |0.56           |0.55           |
+|marvin         |0.43           |0.51           |0.36           |**0.72** ⨯     |0.35           |0.49           |0.34           |
+|niklas         |0.43           |0.38           |0.36           |0.42           |**0.80** ⨯     |0.43           |0.56           |
+|stephan        |0.54           |0.58           |0.41           |0.60           |0.36           |**0.78** ⨯     |0.67           |
+|willi          |0.68           |0.66           |0.58           |0.63           |0.54           |0.52           |**0.76** ⨯     |
+Binned value: 3.43 | LOF: 1.04 | Probability: 0.96 | ✓
 Binned value: 3.85 | LOF: 1.03 | Probability: 0.97 | ✓
 Binned value: 3.20 | LOF: 2.85 | Probability: 0.35 | ⨯
 Binned value: 2.82 | LOF: 1.11 | Probability: 0.90 | ✓
@@ -138,6 +152,7 @@ Average Probablity: 0.93
 -------------------------------------------------------
 Classification: 0.93
 -------------------------------------------------------
+
 Evaluating feature: AVERAGE_ABSOLUTE_ACCELEROMETER_X
 -------------------------------------------------------
 Binned value: 3.32 | LOF: 43.38 | Probability: 0.02 | ⨯
@@ -175,6 +190,7 @@ Average Probablity: 0.03
 -------------------------------------------------------
 Classification: 0.00
 -------------------------------------------------------
+
 Evaluating feature: AVERAGE_ABSOLUTE_ACCELEROMETER_Y
 -------------------------------------------------------
 Binned value: 9.62 | LOF: 11.22 | Probability: 0.09 | ⨯
@@ -212,6 +228,7 @@ Average Probablity: 0.09
 -------------------------------------------------------
 Classification: 0.00
 -------------------------------------------------------
+
 Evaluating feature: AVERAGE_ABSOLUTE_ACCELEROMETER_Z
 -------------------------------------------------------
 Binned value: 3.03 | LOF: 0.96 | Probability: 1.00 | ✓
@@ -249,6 +266,7 @@ Average Probablity: 0.77
 -------------------------------------------------------
 Classification: 0.83
 -------------------------------------------------------
+
 Evaluating feature: AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_X
 -------------------------------------------------------
 Binned value: 3.02 | LOF: 5.75 | Probability: 0.17 | ⨯
@@ -286,6 +304,7 @@ Average Probablity: 0.18
 -------------------------------------------------------
 Classification: 0.00
 -------------------------------------------------------
+
 Evaluating feature: AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Y
 -------------------------------------------------------
 Binned value: 16.76 | LOF: 10.74 | Probability: 0.09 | ⨯
@@ -323,6 +342,7 @@ Average Probablity: 0.04
 -------------------------------------------------------
 Classification: 0.00
 -------------------------------------------------------
+
 Evaluating feature: AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Z
 -------------------------------------------------------
 Binned value: 2.50 | LOF: 1.00 | Probability: 1.00 | ✓
@@ -360,6 +380,7 @@ Average Probablity: 0.85
 -------------------------------------------------------
 Classification: 0.90
 -------------------------------------------------------
+
 Evaluating feature: AVERAGE_ACCELEROMETER_X
 -------------------------------------------------------
 Binned value: 2.62 | LOF: 24.09 | Probability: 0.04 | ⨯
@@ -397,6 +418,7 @@ Average Probablity: 0.03
 -------------------------------------------------------
 Classification: 0.00
 -------------------------------------------------------
+
 Evaluating feature: AVERAGE_ACCELEROMETER_Y
 -------------------------------------------------------
 Binned value: -8.38 | LOF: 8.06 | Probability: 0.12 | ⨯
@@ -434,6 +456,7 @@ Average Probablity: 0.04
 -------------------------------------------------------
 Classification: 0.00
 -------------------------------------------------------
+
 Evaluating feature: AVERAGE_ACCELEROMETER_Z
 -------------------------------------------------------
 Binned value: -1.25 | LOF: 29.64 | Probability: 0.03 | ⨯
@@ -471,6 +494,7 @@ Average Probablity: 0.66
 -------------------------------------------------------
 Classification: 0.62
 -------------------------------------------------------
+
 Evaluating feature: FREQUENCY_ACCELEROMETER_X
 -------------------------------------------------------
 Binned value: 4.21 | LOF: 0.94 | Probability: 1.00 | ✓
@@ -483,6 +507,7 @@ Average Probablity: 0.98
 -------------------------------------------------------
 Classification: 1.00
 -------------------------------------------------------
+
 Evaluating feature: FREQUENCY_ACCELEROMETER_Y
 -------------------------------------------------------
 Binned value: 4.75 | LOF: 1.06 | Probability: 0.94 | ✓
@@ -495,6 +520,7 @@ Average Probablity: 0.94
 -------------------------------------------------------
 Classification: 1.00
 -------------------------------------------------------
+
 Evaluating feature: FREQUENCY_ACCELEROMETER_Z
 -------------------------------------------------------
 Binned value: 2.21 | LOF: 0.99 | Probability: 1.00 | ✓
@@ -507,6 +533,7 @@ Average Probablity: 1.00
 -------------------------------------------------------
 Classification: 1.00
 -------------------------------------------------------
+
 Evaluating feature: STANDARD_DEVIATION_ACCELEROMETER_X
 -------------------------------------------------------
 Binned value: 1.08 | LOF: 7.60 | Probability: 0.13 | ⨯
@@ -544,6 +571,7 @@ Average Probablity: 0.78
 -------------------------------------------------------
 Classification: 0.72
 -------------------------------------------------------
+
 Evaluating feature: STANDARD_DEVIATION_ACCELEROMETER_Y
 -------------------------------------------------------
 Binned value: 1.17 | LOF: 5.65 | Probability: 0.18 | ⨯
@@ -581,6 +609,7 @@ Average Probablity: 0.60
 -------------------------------------------------------
 Classification: 0.55
 -------------------------------------------------------
+
 Evaluating feature: STANDARD_DEVIATION_ACCELEROMETER_Z
 -------------------------------------------------------
 Binned value: 1.14 | LOF: 64.36 | Probability: 0.02 | ⨯
@@ -618,6 +647,7 @@ Average Probablity: 0.79
 -------------------------------------------------------
 Classification: 0.93
 -------------------------------------------------------
+
 Evaluating feature: INVALID_FEATURE_NAME
 -------------------------------------------------------
 -------------------------------------------------------
@@ -626,6 +656,7 @@ Average Probablity: NaN
 -------------------------------------------------------
 Classification: NaN
 -------------------------------------------------------
+
 Evaluating feature: VARIANCE_ACCELEROMETER
 -------------------------------------------------------
 Binned value: 1.96 | LOF: 9.83 | Probability: 0.10 | ⨯
@@ -687,6 +718,7 @@ Average Probablity: 0.86
 -------------------------------------------------------
 Classification: 0.92
 -------------------------------------------------------
+
 Evaluating feature: AVERAGE_RESULTANT_ACCELEROMETER
 -------------------------------------------------------
 Binned value: 26.60 | LOF: 0.99 | Probability: 1.00 | ✓
@@ -724,6 +756,7 @@ Average Probablity: 0.57
 -------------------------------------------------------
 Classification: 0.55
 -------------------------------------------------------
+
 Classified features:
  - AVERAGE_ABSOLUTE_ACCELEROMETER_Z
  - AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Z
@@ -758,7 +791,7 @@ Total classification ratio: 0.56
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.10</a> at May 2, 2016 9:48:30 AM</p>
+<a href="http://www.gradle.org">Gradle 2.10</a> at May 2, 2016 12:56:45 PM</p>
 </div>
 </div>
 </body>
