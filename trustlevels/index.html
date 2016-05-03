@@ -20,13 +20,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">49</div>
+<div class="counter">66</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">9</div>
 <p>failures</p>
 </div>
 </td>
@@ -38,7 +38,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">25.423s</div>
+<div class="counter">23.343s</div>
 <p>duration</p>
 </div>
 </td>
@@ -47,8 +47,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">86%</div>
 <p>successful</p>
 </div>
 </td>
@@ -58,13 +58,57 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Packages</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Classes</a>
+<a href="#tab1">Packages</a>
+</li>
+<li>
+<a href="#tab2">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<ul class="linkList">
+<li>
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html">GenericWalkingClassifierTests</a>.
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html#classification_mobileAronFastClassified">classification_mobileAronFastClassified</a>
+</li>
+<li>
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html">GenericWalkingClassifierTests</a>.
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html#classification_mobileAronNormalClassified">classification_mobileAronNormalClassified</a>
+</li>
+<li>
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html">GenericWalkingClassifierTests</a>.
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html#classification_mobileAronSlowClassified">classification_mobileAronSlowClassified</a>
+</li>
+<li>
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html">GenericWalkingClassifierTests</a>.
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html#classification_mobileRunningNotClassified">classification_mobileRunningNotClassified</a>
+</li>
+<li>
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html">GenericWalkingClassifierTests</a>.
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html#classification_mobileSittingNotClassified">classification_mobileSittingNotClassified</a>
+</li>
+<li>
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html">GenericWalkingClassifierTests</a>.
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html#classification_mobileStandingNotClassified">classification_mobileStandingNotClassified</a>
+</li>
+<li>
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html">GenericWalkingClassifierTests</a>.
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html#classification_mobileStephanFastClassified">classification_mobileStephanFastClassified</a>
+</li>
+<li>
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html">GenericWalkingClassifierTests</a>.
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html#classification_mobileStephanNormalClassified">classification_mobileStephanNormalClassified</a>
+</li>
+<li>
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html">GenericWalkingClassifierTests</a>.
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html#classification_mobileStephanSlowClassified">classification_mobileStephanSlowClassified</a>
+</li>
+</ul>
+</div>
+<div id="tab1" class="tab">
 <h2>Packages</h2>
 <table>
 <thead>
@@ -85,18 +129,18 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>1.188s</td>
+<td>0.808s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="packages/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.html">de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic</a>
 </td>
 <td>12</td>
+<td>9</td>
 <td>0</td>
-<td>0</td>
-<td>1.099s</td>
-<td class="success">100%</td>
+<td>1.224s</td>
+<td class="failures">25%</td>
 </tr>
 <tr>
 <td class="success">
@@ -105,17 +149,27 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>1.328s</td>
+<td>1.182s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
 <td class="success">
 <a href="packages/de.hpi.bpm2.sensordatalogger.statedetector.feature.html">de.hpi.bpm2.sensordatalogger.statedetector.feature</a>
 </td>
-<td>29</td>
+<td>34</td>
 <td>0</td>
 <td>0</td>
-<td>21.537s</td>
+<td>20.004s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="packages/de.hpi.bpm2.sensordatalogger.statedetector.markdown.html">de.hpi.bpm2.sensordatalogger.statedetector.markdown</a>
+</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td>0.007s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -125,7 +179,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.083s</td>
+<td>0.042s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -135,13 +189,13 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.188s</td>
+<td>0.076s</td>
 <td class="success">100%</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -161,17 +215,17 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>1.188s</td>
+<td>0.808s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="success"/>
+<td class="failures"/>
 <a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests.html">de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericWalkingClassifierTests</a>
 <td>12</td>
+<td>9</td>
 <td>0</td>
-<td>0</td>
-<td>1.099s</td>
-<td class="success">100%</td>
+<td>1.224s</td>
+<td class="failures">25%</td>
 </tr>
 <tr>
 <td class="success"/>
@@ -179,7 +233,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.622s</td>
+<td>0.621s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -188,7 +242,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.357s</td>
+<td>0.238s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -197,7 +251,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.349s</td>
+<td>0.323s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -206,7 +260,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.359s</td>
+<td>0.273s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -215,7 +269,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.012s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -230,10 +284,10 @@
 <tr>
 <td class="success"/>
 <a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.feature.FourierFeatureCalculatorTests.html">de.hpi.bpm2.sensordatalogger.statedetector.feature.FourierFeatureCalculatorTests</a>
-<td>9</td>
+<td>14</td>
 <td>0</td>
 <td>0</td>
-<td>0.946s</td>
+<td>1.410s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -242,7 +296,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -251,7 +305,16 @@
 <td>8</td>
 <td>0</td>
 <td>0</td>
-<td>20.214s</td>
+<td>18.315s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success"/>
+<a href="classes/de.hpi.bpm2.sensordatalogger.statedetector.markdown.MarkdownTests.html">de.hpi.bpm2.sensordatalogger.statedetector.markdown.MarkdownTests</a>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td>0.007s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -260,7 +323,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.083s</td>
+<td>0.042s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -269,7 +332,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.188s</td>
+<td>0.076s</td>
 <td class="success">100%</td>
 </tr>
 </tbody>
@@ -283,7 +346,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.10</a> at May 2, 2016 1:03:36 PM</p>
+<a href="http://www.gradle.org">Gradle 2.10</a> at May 3, 2016 1:55:42 PM</p>
 </div>
 </div>
 </body>
