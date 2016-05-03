@@ -1,3 +1,4 @@
+feature-frequencyNew
 android
 samples-willi
 identification_matrix
@@ -5,7 +6,6 @@ fix-start_timestamp_0
 samples_phil
 trustlevels
 moah_jifs
-feature-frequencyNew
 recalculate_old_samples
 third_sample_label
 feature-frequency
