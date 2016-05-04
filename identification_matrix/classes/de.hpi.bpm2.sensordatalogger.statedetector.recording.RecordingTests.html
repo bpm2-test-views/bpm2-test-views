@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class de.hpi.bpm2.sensordatalogger.statedetector.recording.RecordingTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class de.hpi.bpm2.sensordatalogger.statedetector.recording.RecordingTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/de.hpi.bpm2.sensordatalogger.statedetector.recording.html">de.hpi.bpm2.sensordatalogger.statedetector.recording</a> &gt; RecordingTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.865s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="recordingFolder_containsOnlyValidSamples"></a>
+<h3 class="failures">recordingFolder_containsOnlyValidSamples</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: Found 59 invalid record(s) (out of 72)
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at de.hpi.bpm2.sensordatalogger.statedetector.recording.RecordingTests.recordingFolder_containsOnlyValidSamples(RecordingTests.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:105)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:56)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">recordingFolder_containsOnlyValidSamples</td>
+<td>0.865s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>- Invalid overall record: running_normal_ajay_1460983154958_1460983169962.json: User name doesn't match file name
+- Invalid overall record: running_normal_ajay_1460983220744_1460983235747.json: User name doesn't match file name
+- Invalid overall record: running_normal_niklas_1460985197296_1460985212297.json: User name doesn't match file name
+- Invalid overall record: running_normal_stephan_1460540946554_1460540961558.json: User name doesn't match file name
+- Invalid overall record: running_normal_stephan_1460541030536_1460541045539.json: User name doesn't match file name
+- Invalid overall record: running_normal_willi_1460462943732_1460462958734.json: User name doesn't match file name
+- Invalid overall record: sitting_couch_marvin_1460624700292_1460624715298.json: User name doesn't match file name
+- Invalid overall record: sitting_normal_ajay_1460982479994_1460982494996.json: User name doesn't match file name
+- Invalid overall record: sitting_normal_ajay_1460982543304_1460982558310.json: User name doesn't match file name
+- Invalid overall record: sitting_normal_ajay_1460982589857_1460982604862.json: User name doesn't match file name
+- Invalid overall record: sitting_normal_aron_1460983513933_1460983528934.json: User name doesn't match file name
+- Invalid overall record: sitting_normal_marvin_1460624548255_1460624563266.json: User name doesn't match file name
+- Invalid overall record: sitting_normal_marvin_1460624700292_1460624715298.json: User name doesn't match file name
+- Invalid overall record: sitting_normal_niklas_1460984582967_1460984597975.json: User name doesn't match file name
+- Invalid overall record: sitting_normal_niklas_1460984720248_1460984735254.json: User name doesn't match file name
+- Invalid overall record: sitting_normal_stephan_1460540191443_1460540206446.json: User name doesn't match file name
+- Invalid overall record: sitting_normal_stephan_1461230825736_1461230840738.json: Invalid device record: Wear: All feature batches are empty
+- Invalid overall record: sitting_table_marvin_1460624548255_1460624563266.json: User name doesn't match file name
+- Invalid record file name: standing_leaned_onto_table_marvin_1460624833495_1460624848498.json: Invalid start timestamp
+- Invalid overall record: standing_normal_ajay_1460982370884_1460982385886.json: User name doesn't match file name
+- Invalid overall record: standing_normal_aron_1460983573048_1460983588053.json: User name doesn't match file name
+- Invalid overall record: standing_normal_marvin_1460624750183_1460624765192.json: User name doesn't match file name
+- Invalid overall record: standing_normal_marvin_1460624833495_1460624848498.json: User name doesn't match file name
+- Invalid overall record: standing_normal_stephan_1460540545224_1460540560230.json: User name doesn't match file name
+- Invalid overall record: still_normal_stephan_1460540303227_1460540318230.json: User name doesn't match file name
+- Invalid overall record: still_normal_stephan_1461230758607_1461230773609.json: Invalid device record: Wear: All feature batches are empty
+- Invalid overall record: typing_normal_ajay_1460982678024_1460982693030.json: User name doesn't match file name
+- Invalid overall record: typing_normal_ajay_1460982746021_1460982761026.json: User name doesn't match file name
+- Invalid overall record: typing_normal_aron_1460983741908_1460983756910.json: User name doesn't match file name
+- Invalid overall record: walking_fast_aron_1461231495996_1461231511001.json: Invalid device record: Wear: All feature batches are empty
+- Invalid overall record: walking_fast_stephan_1460539907299_1460539922301.json: User name doesn't match file name
+- Invalid record file name: walking_hands_in_pocket_stephan_1460540003139_1460540018144.json: Invalid start timestamp
+- Invalid record file name: walking_hands_in_pockets_philipp_1462267380688_1462267440694.json: Invalid start timestamp
+- Invalid overall record: walking_normal_ajay_1460982816314_1460982831317.json: User name doesn't match file name
+- Invalid overall record: walking_normal_ajay_1460982865831_1460982880834.json: User name doesn't match file name
+- Invalid overall record: walking_normal_ajay_1460982921484_1460982936489.json: User name doesn't match file name
+- Invalid overall record: walking_normal_ajay_1460982992871_1460983007878.json: User name doesn't match file name
+- Invalid overall record: walking_normal_aron_1460984025026_1460984040028.json: User name doesn't match file name
+- Invalid overall record: walking_normal_aron_1460984074116_1460984089119.json: User name doesn't match file name
+- Invalid overall record: walking_normal_aron_1461231414561_1461231429563.json: Invalid device record: Wear: All feature batches are empty
+- Invalid overall record: walking_normal_marvin_1460536935509_1460536995512.json: User name doesn't match file name
+- Invalid overall record: walking_normal_marvin_1460624197421_1460624212422.json: User name doesn't match file name
+- Invalid overall record: walking_normal_marvin_1460625484667_1460625499672.json: User name doesn't match file name
+- Invalid overall record: walking_normal_niklas_1460984802694_1460984817696.json: User name doesn't match file name
+- Invalid overall record: walking_normal_niklas_1460984862226_1460984877235.json: User name doesn't match file name
+- Invalid overall record: walking_normal_niklas_1460984912563_1460984927571.json: User name doesn't match file name
+- Invalid overall record: walking_normal_niklas_1460985013015_1460985028016.json: User name doesn't match file name
+- Invalid overall record: walking_normal_niklas_1460985088475_1460985103479.json: User name doesn't match file name
+- Invalid overall record: walking_normal_stephan_1460539707796_1460539722799.json: User name doesn't match file name
+- Invalid overall record: walking_normal_stephan_1460539797415_1460539812418.json: User name doesn't match file name
+- Invalid overall record: walking_normal_stephan_1461230975904_1461230990911.json: Invalid device record: Wear: All feature batches are empty
+- Invalid overall record: walking_normal_stephan_1461231014793_1461231029795.json: Invalid device record: Wear: All feature batches are empty
+- Invalid overall record: walking_normal_stephan_1461231042521_1461231057523.json: Invalid device record: Wear: All feature batches are empty
+- Invalid overall record: walking_normal_willi_1460102807903_1460102822904.json: User name doesn't match file name
+- Invalid overall record: walking_normal_willi_1460118651519_1460118666520.json: User name doesn't match file name
+- Invalid overall record: walking_normal_willi_1460118783019_1460118798025.json: User name doesn't match file name
+- Invalid overall record: walking_normal_willi_1460360130447_1460360145448.json: User name doesn't match file name
+- Invalid overall record: walking_normal_willi_1460360184862_1460360199866.json: Label doesn't match file name
+- Invalid overall record: walking_slow_aron_1461231457831_1461231472834.json: Invalid device record: Wear: All feature batches are empty
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.10</a> at May 4, 2016 9:23:47 AM</p>
+</div>
+</div>
+</body>
+</html>
