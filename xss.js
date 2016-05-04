@@ -1,3 +1,3 @@
-<script>
-alert("hy");
-</script>
+(function (window, document) {
+  alert("hy");
+})
