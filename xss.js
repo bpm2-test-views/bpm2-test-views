@@ -1,3 +1,1 @@
-(function (window, document) {
-  alert("hy");
-})
+document.write("This text comes from an external script.");
