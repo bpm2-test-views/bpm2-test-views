@@ -1,3 +1,4 @@
+specific_classifier_matrix
 trustlevels
 android
 samples
@@ -6,7 +7,6 @@ activeState
 newAjaySamples
 newClassifier
 feature-frequencyNew
-specific_classifier_matrix
 identification_matrix
 fix-empty_watch_features
 samples-willi
