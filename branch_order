@@ -1,3 +1,4 @@
+samples
 routines
 trustlevels
 activeState
@@ -6,7 +7,6 @@ newAjaySamples
 newClassifier
 feature-frequencyNew
 specific_classifier_matrix
-samples
 identification_matrix
 fix-empty_watch_features
 samples-willi
