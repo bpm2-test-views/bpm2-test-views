@@ -1,3 +1,4 @@
+newClassifier
 android
 trustlevels
 routines
@@ -7,7 +8,6 @@ specific_classifier_matrix
 samples
 activeState
 newAjaySamples
-newClassifier
 feature-frequencyNew
 identification_matrix
 fix-empty_watch_features
