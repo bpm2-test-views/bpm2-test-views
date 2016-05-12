@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class de.hpi.bpm2.sensordatalogger.statedetector.matrix.ClassificationMatrix</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class de.hpi.bpm2.sensordatalogger.statedetector.matrix.ClassificationMatrix</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/de.hpi.bpm2.sensordatalogger.statedetector.matrix.html">de.hpi.bpm2.sensordatalogger.statedetector.matrix</a> &gt; ClassificationMatrix</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">25.327s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">calculateClassificationMatrix_usingAllFeatures</td>
+<td>23.385s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">calculateClassificationMatrix_usingSpecificWalkingClassifier</td>
+<td>1.942s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Calculating classification matrix using features:
+- AVERAGE_ABSOLUTE_ACCELEROMETER_X
+- AVERAGE_ABSOLUTE_ACCELEROMETER_Y
+- AVERAGE_ABSOLUTE_ACCELEROMETER_Z
+- AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_X
+- AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Y
+- AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Z
+- AVERAGE_ACCELEROMETER_X
+- AVERAGE_ACCELEROMETER_Y
+- AVERAGE_ACCELEROMETER_Z
+- FREQUENCY_ACCELEROMETER_X
+- FREQUENCY_ACCELEROMETER_Y
+- FREQUENCY_ACCELEROMETER_Z
+- STANDARD_DEVIATION_ACCELEROMETER_X
+- STANDARD_DEVIATION_ACCELEROMETER_Y
+- STANDARD_DEVIATION_ACCELEROMETER_Z
+- FREQUENCY_ACCELEROMETER_X
+- FREQUENCY_ACCELEROMETER_Y
+- FREQUENCY_ACCELEROMETER_Z
+- VARIANCE_ACCELEROMETER
+- AVERAGE_RESULTANT_ACCELEROMETER
+
+ajay compared to:
+ ↳ ajay      75% ⨯
+ ↳ aron      66%
+ ↳ marvin    43%
+ ↳ niklas    48%
+ ↳ philipp   52%
+ ↳ stephan   36%
+ ↳ willi     67%
+
+aron compared to:
+ ↳ ajay      67%
+ ↳ aron      78% ⨯
+ ↳ marvin    45%
+ ↳ niklas    58%
+ ↳ philipp   58%
+ ↳ stephan   36%
+ ↳ willi     75%
+
+marvin compared to:
+ ↳ ajay      51%
+ ↳ aron      56%
+ ↳ marvin    76% ⨯
+ ↳ niklas    53%
+ ↳ philipp   44%
+ ↳ stephan   36%
+ ↳ willi     45%
+
+niklas compared to:
+ ↳ ajay      28%
+ ↳ aron      31%
+ ↳ marvin    22%
+ ↳ niklas    68% ⨯
+ ↳ philipp   24%
+ ↳ stephan   19%
+ ↳ willi     31%
+
+philipp compared to:
+ ↳ ajay      68%
+ ↳ aron      65%
+ ↳ marvin    44%
+ ↳ niklas    39%
+ ↳ philipp   81%
+ ↳ stephan   71%
+ ↳ willi     66%
+
+stephan compared to:
+ ↳ ajay      32%
+ ↳ aron      32%
+ ↳ marvin    20%
+ ↳ niklas    17%
+ ↳ philipp   41%
+ ↳ stephan   70% ⨯
+ ↳ willi     38%
+
+willi compared to:
+ ↳ ajay      34%
+ ↳ aron      34%
+ ↳ marvin    27%
+ ↳ niklas    24%
+ ↳ philipp   29%
+ ↳ stephan   27%
+ ↳ willi     60% ⨯
+
+| walking_normal |    ajay    |    aron    |   marvin   |   niklas   |  philipp   |  stephan   |   willi    |
+| -------------- |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
+| **ajay**       | **`75%`**  |    66%     |    43%     |    48%     |    52%     |    36%     |    67%     |
+| **aron**       |    67%     | **`78%`**  |    45%     |    58%     |    58%     |    36%     |    75%     |
+| **marvin**     |    51%     |    56%     | **`76%`**  |    53%     |    44%     |    36%     |    45%     |
+| **niklas**     |    28%     |    31%     |    22%     | **`68%`**  |    24%     |    19%     |    31%     |
+| **philipp**    |    68%     |    65%     |    44%     |    39%     |  **81%**   |    71%     |    66%     |
+| **stephan**    |    32%     |    32%     |    20%     |    17%     |    41%     | **`70%`**  |    38%     |
+| **willi**      |    34%     |    34%     |    27%     |    24%     |    29%     |    27%     | **`60%`**  |
+
+Total classification accuracy: 65%
+Calculating classification matrix using: SpecificWalkingMobileClassifier
+
+ajay compared to:
+ ↳ ajay      90%
+ ↳ aron      96% ⨯
+ ↳ marvin    52%
+ ↳ niklas    82% ⨯
+ ↳ philipp   55%
+ ↳ stephan   50%
+ ↳ willi     73%
+
+aron compared to:
+ ↳ ajay      16%
+ ↳ aron      78% ⨯
+ ↳ marvin    17%
+ ↳ niklas    71%
+ ↳ philipp   20%
+ ↳ stephan   0%
+ ↳ willi     52%
+
+marvin compared to:
+ ↳ ajay      70%
+ ↳ aron      89% ⨯
+ ↳ marvin    97%
+ ↳ niklas    82% ⨯
+ ↳ philipp   57%
+ ↳ stephan   50%
+ ↳ willi     38%
+
+niklas compared to:
+ ↳ ajay      9%
+ ↳ aron      66%
+ ↳ marvin    21%
+ ↳ niklas    64% ⨯
+ ↳ philipp   0%
+ ↳ stephan   0%
+ ↳ willi     28%
+
+philipp compared to:
+ ↳ ajay      63%
+ ↳ aron      10%
+ ↳ marvin    14%
+ ↳ niklas    0%
+ ↳ philipp   100%
+ ↳ stephan   83% ⨯
+ ↳ willi     35%
+
+stephan compared to:
+ ↳ ajay      6%
+ ↳ aron      0%
+ ↳ marvin    29%
+ ↳ niklas    0%
+ ↳ philipp   0%
+ ↳ stephan   100%
+ ↳ willi     0%
+
+willi compared to:
+ ↳ ajay      21%
+ ↳ aron      52%
+ ↳ marvin    11%
+ ↳ niklas    56%
+ ↳ philipp   35%
+ ↳ stephan   83% ⨯
+ ↳ willi     75% ⨯
+
+| walking_normal |    ajay    |    aron    |   marvin   |   niklas   |  philipp   |  stephan   |   willi    |
+| -------------- |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
+| **ajay**       |  **90%**   |   `96%`    |    52%     |   `82%`    |    55%     |    50%     |    73%     |
+| **aron**       |    16%     | **`78%`**  |    17%     |    71%     |    20%     |     0%     |    52%     |
+| **marvin**     |    70%     |   `89%`    |  **97%**   |   `82%`    |    57%     |    50%     |    38%     |
+| **niklas**     |     9%     |    66%     |    21%     | **`64%`**  |     0%     |     0%     |    28%     |
+| **philipp**    |    63%     |    10%     |    14%     |     0%     |  **100%**  |   `83%`    |    35%     |
+| **stephan**    |     6%     |     0%     |    29%     |     0%     |     0%     |  **100%**  |     0%     |
+| **willi**      |    21%     |    52%     |    11%     |    56%     |    35%     |   `83%`    | **`75%`**  |
+
+Total classification accuracy: 74%
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.10</a> at May 12, 2016 12:24:02 PM</p>
+</div>
+</div>
+</body>
+</html>
