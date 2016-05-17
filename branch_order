@@ -1,3 +1,4 @@
+android
 activeState
 matrix_minor_refactoring
 feature-mergehelper
@@ -5,7 +6,6 @@ routine_creator
 sample_recorder
 newSpecificWalkingMobileClassifier
 routines
-android
 newClassifier
 trustlevels
 improve_walking_classification
