@@ -1,3 +1,4 @@
+sample_recorder
 newSpecificWalkingMobileClassifier
 orientation
 android
@@ -5,7 +6,6 @@ matrix_minor_refactoring
 feature-mergehelper
 activeState
 routine_creator
-sample_recorder
 routines
 newClassifier
 trustlevels
