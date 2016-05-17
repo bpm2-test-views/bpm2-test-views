@@ -1,3 +1,4 @@
+activeState
 feature-mergehelper
 routine_creator
 sample_recorder
@@ -11,7 +12,6 @@ improve_walking_classification
 feature_visualization
 specific_classifier_matrix
 samples
-activeState
 newAjaySamples
 feature-frequencyNew
 identification_matrix
