@@ -1,3 +1,4 @@
+getSmartphoneClassifier
 newSpecificWalkingMobileClassifier
 classifier-specific
 visualization_prettify
@@ -6,7 +7,6 @@ ci_pending
 feature-mergehelper
 feature-frequencyNew
 sample_recorder
-getSmartphoneClassifier
 routine_creator
 orientation
 matrix_minor_refactoring
