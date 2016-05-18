@@ -1,3 +1,4 @@
+feature-frequencyNew
 sample_recorder
 android
 getSmartphoneClassifier
@@ -15,7 +16,6 @@ feature_visualization
 specific_classifier_matrix
 samples
 newAjaySamples
-feature-frequencyNew
 identification_matrix
 fix-empty_watch_features
 samples-willi
