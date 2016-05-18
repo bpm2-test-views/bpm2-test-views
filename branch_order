@@ -1,3 +1,4 @@
+orientation
 classifier-specific
 android
 getSmartphoneClassifier
@@ -8,7 +9,6 @@ feature-mergehelper
 feature-frequencyNew
 sample_recorder
 routine_creator
-orientation
 matrix_minor_refactoring
 activeState
 routines
