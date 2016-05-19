@@ -1,3 +1,4 @@
+ci_pending
 newSpecificWalkingMobileClassifier
 classifier-specific
 orientation
@@ -5,7 +6,6 @@ sample_recorder
 getSmartphoneClassifier
 android
 visualization_prettify
-ci_pending
 feature-mergehelper
 feature-frequencyNew
 routine_creator
