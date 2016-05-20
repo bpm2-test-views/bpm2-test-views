@@ -1,3 +1,4 @@
+orientation
 android
 classifier-specific
 newSpecificWalkingMobileClassifier
@@ -5,7 +6,6 @@ server-dashboard
 getSmartphoneClassifier
 sample_recorder
 ci_pending
-orientation
 visualization_prettify
 feature-mergehelper
 feature-frequencyNew
