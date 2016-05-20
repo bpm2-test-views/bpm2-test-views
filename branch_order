@@ -1,3 +1,4 @@
+routines
 server-dashboard
 getSmartphoneClassifier
 orientation
@@ -12,7 +13,6 @@ feature-frequencyNew
 routine_creator
 matrix_minor_refactoring
 activeState
-routines
 newClassifier
 trustlevels
 improve_walking_classification
