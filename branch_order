@@ -1,9 +1,9 @@
+sample_recorder
 classifier-specific
 newSpecificWalkingMobileClassifier
 android
 ci_pending
 orientation
-sample_recorder
 getSmartphoneClassifier
 visualization_prettify
 feature-mergehelper
