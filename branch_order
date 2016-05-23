@@ -1,3 +1,4 @@
+newSpecificWalkingMobileClassifier
 retrive_smartphone_state
 master
 android
@@ -6,7 +7,6 @@ orientation
 routines
 getSmartphoneClassifier
 classifier-specific
-newSpecificWalkingMobileClassifier
 sample_recorder
 ci_pending
 visualization_prettify
