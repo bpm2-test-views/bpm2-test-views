@@ -1,10 +1,10 @@
+orientation
 newSpecificWalkingMobileClassifier
 routines
 retrive_smartphone_state
 master
 android
 server-dashboard
-orientation
 getSmartphoneClassifier
 classifier-specific
 sample_recorder
