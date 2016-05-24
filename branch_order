@@ -1,3 +1,4 @@
+android
 retrieve_smartphone_state
 retrive_smartphone_state
 getSmartphoneClassifier
@@ -6,7 +7,6 @@ fixBatch
 orientation
 routines
 master
-android
 server-dashboard
 classifier-specific
 sample_recorder
