@@ -1,3 +1,4 @@
+getSmartphoneClassifier
 orientation
 state_recalculation
 routines
@@ -5,7 +6,6 @@ retrieve_smartphone_state
 android
 fixBatch
 retrive_smartphone_state
-getSmartphoneClassifier
 newSpecificWalkingMobileClassifier
 master
 server-dashboard
