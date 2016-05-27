@@ -1,3 +1,4 @@
+android
 state_recalculation
 getSmartphoneClassifier
 variance
@@ -7,7 +8,6 @@ fixStateIssue
 orientation
 routines
 retrieve_smartphone_state
-android
 fixBatch
 newSpecificWalkingMobileClassifier
 master
