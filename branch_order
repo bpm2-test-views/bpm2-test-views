@@ -1,3 +1,4 @@
+routines
 android
 state_recalculation
 getSmartphoneClassifier
@@ -6,7 +7,6 @@ fix-duplicateGenericClassifier
 retrive_smartphone_state
 fixStateIssue
 orientation
-routines
 retrieve_smartphone_state
 fixBatch
 newSpecificWalkingMobileClassifier
