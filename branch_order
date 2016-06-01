@@ -1,3 +1,4 @@
+server-dashboard
 routines
 upgrade
 android
@@ -12,7 +13,6 @@ retrieve_smartphone_state
 fixBatch
 newSpecificWalkingMobileClassifier
 master
-server-dashboard
 classifier-specific
 sample_recorder
 ci_pending
