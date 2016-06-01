@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class de.hpi.bpm2.sensordatalogger.statedetector.classifier.specific.SpecificWalkingClassifierTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class de.hpi.bpm2.sensordatalogger.statedetector.classifier.specific.SpecificWalkingClassifierTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/de.hpi.bpm2.sensordatalogger.statedetector.classifier.specific.html">de.hpi.bpm2.sensordatalogger.statedetector.classifier.specific</a> &gt; SpecificWalkingClassifierTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.465s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">66%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="classification_mobileSameSampleClassified"></a>
+<h3 class="failures">classification_mobileSameSampleClassified</h3>
+<span class="code">
+<pre>java.lang.NullPointerException
+	at de.hpi.bpm2.sensordatalogger.statedetector.classifier.generic.GenericClassifierTest.calculateClassification(GenericClassifierTest.java:52)
+	at de.hpi.bpm2.sensordatalogger.statedetector.classifier.specific.SpecificWalkingClassifierTests.classification_mobileSameSampleClassified(SpecificWalkingClassifierTests.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:105)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:56)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">classification_mobileDifferenctSample2NotClassified</td>
+<td>0.414s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">classification_mobileDifferenctSampleNotClassified</td>
+<td>0.926s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">classification_mobileSameSampleClassified</td>
+<td>0.125s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>1
+2853337027
+2853236329
+2
+2853356194
+2853236485
+3
+2853354057
+2853237056
+5
+1002
+2853343937
+2853241826
+walkingState
+2853355561
+2853236559
+varianceState
+2853298813
+2853236563
+stillState
+2853353559
+2853236561
+sittingState
+2853353558
+2853236560
+standingState
+2853353556
+2853236560
+runningState
+2853353554
+2853236555
+lightState
+2853351558
+2853236556
+workLocationState
+2853341553
+2853251549
+displayOnState
+2853353553
+2853236555
+homeLocationState
+2853341552
+2853251548
+knownBluetoothDeviceState
+2853351551
+2853241553
+knownWlanState
+2853351552
+2853241554
+pressureState
+AVERAGE_ABSOLUTE_ACCELEROMETER_X
+2853336891
+2853234392
+AVERAGE_ABSOLUTE_ACCELEROMETER_Y
+2853336891
+2853234392
+AVERAGE_ABSOLUTE_ACCELEROMETER_Z
+2853336891
+2853234393
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_X
+2853336892
+2853234393
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Y
+2853336892
+2853234393
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Z
+2853336892
+2853234393
+AVERAGE_ACCELEROMETER_X
+2853336892
+2853234393
+AVERAGE_ACCELEROMETER_Y
+2853336892
+2853234393
+AVERAGE_ACCELEROMETER_Z
+2853336892
+2853234393
+FREQUENCY_ACCELEROMETER_X
+2853335894
+2853234142
+FREQUENCY_ACCELEROMETER_Y
+2853335894
+2853233393
+FREQUENCY_ACCELEROMETER_Z
+2853335894
+2853233392
+STANDARD_DEVIATION_ACCELEROMETER_X
+2853336893
+2853234394
+STANDARD_DEVIATION_ACCELEROMETER_Y
+2853336893
+2853234394
+STANDARD_DEVIATION_ACCELEROMETER_Z
+2853336893
+2853234394
+INVALID_FEATURE_NAME
+1
+2599046376
+2598986264
+2
+2599046317
+2598986337
+3
+2599046167
+2598989165
+5
+2599040616
+2598987238
+1002
+walkingState
+2599042674
+2598987673
+varianceState
+2599042678
+2598987678
+stillState
+2599042678
+2598987677
+pressureState
+sittingState
+2599042676
+2598987676
+standingState
+2599042674
+2598987675
+runningState
+2599042672
+2598987671
+lightState
+2599042688
+2598987688
+walkingStateSpecific
+2599042683
+2598992684
+displayOnState
+2599042689
+2598987689
+knownBluetoothDeviceState
+2599042686
+2598987685
+knownWlanState
+2599042698
+2598987698
+homeLocationState
+AVERAGE_ABSOLUTE_ACCELEROMETER_X
+2599046125
+2598986626
+AVERAGE_ABSOLUTE_ACCELEROMETER_Y
+2599046127
+2598986377
+AVERAGE_ABSOLUTE_ACCELEROMETER_Z
+2599046379
+2598986377
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_X
+2599046381
+2598986379
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Y
+2599046381
+2598986380
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Z
+2599046383
+2598986886
+AVERAGE_ACCELEROMETER_X
+2599046386
+2598986379
+AVERAGE_ACCELEROMETER_Y
+2599046388
+2598986379
+AVERAGE_ACCELEROMETER_Z
+2599046390
+2598986381
+STANDARD_DEVIATION_ACCELEROMETER_X
+2599046392
+2598986382
+STANDARD_DEVIATION_ACCELEROMETER_Y
+2599046401
+2598986391
+STANDARD_DEVIATION_ACCELEROMETER_Z
+2599046402
+2598986393
+FREQUENCY_ACCELEROMETER_X
+2599046156
+2598989895
+FREQUENCY_ACCELEROMETER_Y
+2599045907
+2598989659
+FREQUENCY_ACCELEROMETER_Z
+2599044907
+2598988892
+VARIANCE_ACCELEROMETER
+2599046411
+2598986400
+AVERAGE_RESULTANT_ACCELEROMETER
+2599046413
+2598986393
+After mapping
+1
+60113
+1
+2
+60053
+73
+3
+59905
+2903
+5
+54354
+976
+1002
+walkingState
+56414
+1414
+varianceState
+56420
+1420
+stillState
+56421
+1421
+pressureState
+sittingState
+56421
+1421
+standingState
+56420
+1421
+runningState
+56418
+1417
+lightState
+56418
+1419
+walkingStateSpecific
+56415
+6416
+displayOnState
+56422
+1422
+knownBluetoothDeviceState
+56420
+1419
+knownWlanState
+56422
+1421
+homeLocationState
+AVERAGE_ABSOLUTE_ACCELEROMETER_X
+59847
+348
+AVERAGE_ABSOLUTE_ACCELEROMETER_Y
+59848
+98
+AVERAGE_ABSOLUTE_ACCELEROMETER_Z
+60099
+97
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_X
+60099
+97
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Y
+60100
+98
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Z
+60101
+602
+AVERAGE_ACCELEROMETER_X
+60102
+95
+AVERAGE_ACCELEROMETER_Y
+60103
+95
+AVERAGE_ACCELEROMETER_Z
+60104
+95
+STANDARD_DEVIATION_ACCELEROMETER_X
+60105
+95
+STANDARD_DEVIATION_ACCELEROMETER_Y
+60106
+95
+STANDARD_DEVIATION_ACCELEROMETER_Z
+60105
+96
+FREQUENCY_ACCELEROMETER_X
+59859
+3597
+FREQUENCY_ACCELEROMETER_Y
+59608
+3359
+FREQUENCY_ACCELEROMETER_Z
+58607
+2591
+VARIANCE_ACCELEROMETER
+60109
+99
+AVERAGE_RESULTANT_ACCELEROMETER
+60110
+91
+1
+2422839863
+2422779883
+2
+2422839705
+2422779923
+3
+2422837483
+2422780482
+5
+1002
+walkingState
+2422839420
+2422780419
+varianceState
+2422839672
+2422779922
+stillState
+2422838421
+2422781416
+sittingState
+2422838421
+2422781415
+standingState
+2422838420
+2422781415
+runningState
+2422838420
+2422781420
+lightState
+2422837419
+2422782419
+workLocationState
+homeLocationState
+displayOnState
+2422838418
+2422781412
+knownBluetoothDeviceState
+2422832415
+2422782416
+knownWlanState
+2422832426
+2422782427
+pressureState
+AVERAGE_ABSOLUTE_ACCELEROMETER_X
+2422839666
+2422778165
+AVERAGE_ABSOLUTE_ACCELEROMETER_Y
+2422839666
+2422778165
+AVERAGE_ABSOLUTE_ACCELEROMETER_Z
+2422839668
+2422778167
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_X
+2422839669
+2422778168
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Y
+2422839669
+2422778169
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Z
+2422839670
+2422778170
+AVERAGE_ACCELEROMETER_X
+2422839671
+2422778171
+AVERAGE_ACCELEROMETER_Y
+2422839672
+2422778172
+AVERAGE_ACCELEROMETER_Z
+2422839672
+2422778173
+FREQUENCY_ACCELEROMETER_X
+2422838677
+2422772427
+FREQUENCY_ACCELEROMETER_Y
+2422838677
+2422772427
+FREQUENCY_ACCELEROMETER_Z
+2422838676
+2422772426
+STANDARD_DEVIATION_ACCELEROMETER_X
+2422839673
+2422778173
+STANDARD_DEVIATION_ACCELEROMETER_Y
+2422839673
+2422778173
+STANDARD_DEVIATION_ACCELEROMETER_Z
+2422839673
+2422778173
+VARIANCE_ACCELEROMETER
+2422839673
+2422778173
+AVERAGE_RESULTANT_ACCELEROMETER
+2422839673
+2422778173
+After mapping
+1
+59980
+0
+2
+59822
+40
+3
+57601
+600
+5
+1002
+walkingState
+59540
+540
+varianceState
+59793
+44
+stillState
+58544
+1539
+sittingState
+58545
+1539
+standingState
+58545
+1539
+runningState
+58545
+1545
+lightState
+57545
+2545
+workLocationState
+homeLocationState
+displayOnState
+58546
+1540
+knownBluetoothDeviceState
+52544
+2545
+knownWlanState
+52545
+2547
+pressureState
+AVERAGE_ABSOLUTE_ACCELEROMETER_X
+59788
+-1713
+AVERAGE_ABSOLUTE_ACCELEROMETER_Y
+59789
+-1711
+AVERAGE_ABSOLUTE_ACCELEROMETER_Z
+59792
+-1709
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_X
+59794
+-1707
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Y
+59795
+-1704
+AVERAGE_ABSOLUTE_DIFFERENCE_ACCELEROMETER_Z
+59797
+-1702
+AVERAGE_ACCELEROMETER_X
+59799
+-1700
+AVERAGE_ACCELEROMETER_Y
+59802
+-1698
+AVERAGE_ACCELEROMETER_Z
+59804
+-1695
+FREQUENCY_ACCELEROMETER_X
+58810
+-7439
+FREQUENCY_ACCELEROMETER_Y
+58812
+-7437
+FREQUENCY_ACCELEROMETER_Z
+58813
+-7436
+STANDARD_DEVIATION_ACCELEROMETER_X
+59812
+-1687
+STANDARD_DEVIATION_ACCELEROMETER_Y
+59814
+-1685
+STANDARD_DEVIATION_ACCELEROMETER_Z
+59816
+-1683
+VARIANCE_ACCELEROMETER
+59818
+-1681
+AVERAGE_RESULTANT_ACCELEROMETER
+59820
+-1679
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.10</a> at Jun 1, 2016 2:44:24 PM</p>
+</div>
+</div>
+</body>
+</html>
