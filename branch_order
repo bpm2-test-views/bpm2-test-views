@@ -1,3 +1,4 @@
+upgrade
 routines
 trustlevelViewWear
 getSmartphoneClassifier
@@ -5,7 +6,6 @@ android
 state_recalculation
 smartphone_retrieval_visualization
 fix-timestampBug
-upgrade
 theRealDemo
 fixErrorUpload
 fix-walking
