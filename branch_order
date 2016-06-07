@@ -1,3 +1,4 @@
+fixErrorUpload
 tests-bruteforceMatrix
 getSmartphoneClassifier
 state_recalculation
@@ -8,7 +9,6 @@ android
 smartphone_retrieval_visualization
 fix-timestampBug
 theRealDemo
-fixErrorUpload
 fix-walking
 demo
 playground
