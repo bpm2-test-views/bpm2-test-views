@@ -1,3 +1,4 @@
+trustlevelViewWear
 routines
 tests-bruteforceMatrix
 smartphone_retrieval_experiments
@@ -6,7 +7,6 @@ android
 state_recalculation
 fixErrorUpload
 upgrade
-trustlevelViewWear
 smartphone_retrieval_visualization
 fix-timestampBug
 theRealDemo
