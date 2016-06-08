@@ -1,3 +1,4 @@
+upgrade
 android
 fixErrorUpload
 tests-bruteforceMatrix
@@ -6,7 +7,6 @@ trustlevelViewWear
 smartphone_retrieval_experiments
 getSmartphoneClassifier
 state_recalculation
-upgrade
 smartphone_retrieval_visualization
 fix-timestampBug
 theRealDemo
