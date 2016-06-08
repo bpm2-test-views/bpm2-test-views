@@ -1,3 +1,4 @@
+fixErrorUpload
 tests-bruteforceMatrix
 routines
 trustlevelViewWear
@@ -5,7 +6,6 @@ smartphone_retrieval_experiments
 getSmartphoneClassifier
 android
 state_recalculation
-fixErrorUpload
 upgrade
 smartphone_retrieval_visualization
 fix-timestampBug
