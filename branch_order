@@ -1,3 +1,4 @@
+upgrade
 smartphone_retrieval_experiments
 theRealSlimBug
 timeAndDummyFix
@@ -5,7 +6,6 @@ tests-bruteforceMatrix
 routines
 android
 fixErrorUpload
-upgrade
 trustlevelViewWear
 getSmartphoneClassifier
 state_recalculation
