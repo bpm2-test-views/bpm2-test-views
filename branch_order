@@ -1,3 +1,4 @@
+fix-timestampBug
 tests-bruteforceMatrix
 fix-Classification
 upgrade
@@ -11,7 +12,6 @@ trustlevelViewWear
 getSmartphoneClassifier
 state_recalculation
 smartphone_retrieval_visualization
-fix-timestampBug
 theRealDemo
 fix-walking
 demo
