@@ -1,10 +1,10 @@
+android
 feature-brightness
 logging
 genericRetrieveSmartphoneClassifier
 getSmartphoneClassifier
 heisenbug
 smartphone_retrieval_experiments
-android
 add_samples
 slackIntegration
 timeAndDummyFix
