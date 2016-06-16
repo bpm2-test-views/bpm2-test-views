@@ -1,3 +1,4 @@
+routines
 genericRetrieveSmartphoneClassifier
 android
 feature-brightness
@@ -13,7 +14,6 @@ tests-bruteforceMatrix
 fix-timestampBug
 upgrade
 theRealSlimBug
-routines
 fixErrorUpload
 trustlevelViewWear
 state_recalculation
