@@ -1,3 +1,4 @@
+server-dashboard
 routines
 genericRetrieveSmartphoneClassifier
 android
@@ -22,7 +23,6 @@ theRealDemo
 fix-walking
 demo
 playground
-server-dashboard
 orientation
 variance
 fix-duplicateGenericClassifier
