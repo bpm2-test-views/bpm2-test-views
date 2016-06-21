@@ -1,3 +1,4 @@
+smartphone_retrieval_experiments
 genericRetrieveSmartphoneClassifier
 fix-recalculator_is_crap
 server-reporting
@@ -11,7 +12,6 @@ feature-brightness
 logging
 getSmartphoneClassifier
 heisenbug
-smartphone_retrieval_experiments
 add_samples
 slackIntegration
 timeAndDummyFix
