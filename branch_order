@@ -1,3 +1,4 @@
+upgrade
 genericRetrieveSmartphoneClassifier
 smartphone_retrieval_experiments
 fix-recalculator_is_crap
@@ -18,7 +19,6 @@ timeAndDummyFix
 fix-Classification
 tests-bruteforceMatrix
 fix-timestampBug
-upgrade
 theRealSlimBug
 fixErrorUpload
 trustlevelViewWear
