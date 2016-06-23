@@ -1,3 +1,4 @@
+server-dashboard
 fixFeatures
 genericRetrieveSmartphoneClassifier
 android
@@ -9,7 +10,6 @@ smartphone_retrieval_experiments
 fix-recalculator_is_crap
 server-reporting
 fix-recalculator
-server-dashboard
 routines
 feature-brightness
 logging
