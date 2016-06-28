@@ -1,3 +1,4 @@
+samples
 genericRetrieveSmartphoneClassifier
 fix-recalc2
 android
@@ -54,7 +55,6 @@ trustlevels
 improve_walking_classification
 feature_visualization
 specific_classifier_matrix
-samples
 newAjaySamples
 identification_matrix
 fix-empty_watch_features
