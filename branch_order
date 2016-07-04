@@ -1,3 +1,4 @@
+routines
 fixedWalkingClassifier
 fix-recalc2
 genericRetrieveSmartphoneClassifier
@@ -13,7 +14,6 @@ smartphone_retrieval_experiments
 fix-recalculator_is_crap
 server-reporting
 fix-recalculator
-routines
 feature-brightness
 logging
 getSmartphoneClassifier
