@@ -1,3 +1,4 @@
+getSmartphoneClassifier
 fix-recalc2
 fixedWalkingClassifier
 genericRetrieveSmartphoneClassifier
@@ -16,7 +17,6 @@ server-reporting
 fix-recalculator
 feature-brightness
 logging
-getSmartphoneClassifier
 heisenbug
 add_samples
 slackIntegration
