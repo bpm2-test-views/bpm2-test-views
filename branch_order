@@ -1,3 +1,4 @@
+upgrade
 getSmartphoneClassifier
 fix-recalc2
 fixedWalkingClassifier
@@ -10,7 +11,6 @@ genericRetrieveSmartphoneClassifierBinned
 fixFeatures
 newTotalTrustlevel
 refactorStates
-upgrade
 smartphone_retrieval_experiments
 fix-recalculator_is_crap
 server-reporting
