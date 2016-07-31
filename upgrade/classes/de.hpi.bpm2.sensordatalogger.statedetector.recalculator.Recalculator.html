@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class de.hpi.bpm2.sensordatalogger.statedetector.recalculator.Recalculator</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class de.hpi.bpm2.sensordatalogger.statedetector.recalculator.Recalculator</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/de.hpi.bpm2.sensordatalogger.statedetector.recalculator.html">de.hpi.bpm2.sensordatalogger.statedetector.recalculator</a> &gt; Recalculator</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.159s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">recalculateSpecificRecords</td>
+<td>1.159s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Re-calculating device record: upgrade_cm_marvin_1468066917058_1468066922062.json
+DeviceRecord for type : Phone
+New Interval needed for AVERAGE_ACCELEROMETER_X (500 : 678)
+New Interval needed for AVERAGE_ACCELEROMETER_Y (500 : 678)
+New Interval needed for AVERAGE_ACCELEROMETER_Z (500 : 678)
+New Interval needed for STANDARD_DEVIATION_ACCELEROMETER_X (500 : 678)
+New Interval needed for STANDARD_DEVIATION_ACCELEROMETER_Y (500 : 678)
+New Interval needed for STANDARD_DEVIATION_ACCELEROMETER_Z (500 : 678)
+New Interval needed for FREQUENCY_ACCELEROMETER_Y (2000 : 2238)
+New Interval needed for FREQUENCY_ACCELEROMETER_Z (2000 : 2209)
+New Interval needed for FREQUENCY_GYROSCOPE_X (2000 : 2209)
+New Interval needed for FREQUENCY_GYROSCOPE_Y (2000 : 2209)
+New Interval needed for AVERAGE_RESULTANT_ACCELEROMETER (500 : 678)
+The featureCalculator for DIRECTION_ACCELEROMETER is not added in to the featureManager.
+The featureCalculator for NUMBER_OF_STOPS is not added in to the featureManager.
+The featureCalculator for HAND_UP is not added in to the featureManager.
+New Interval needed for walkingState (1000 : 0)
+The stateProbabilityCalculator for varianceState is not added to the stateManager.
+New Interval needed for stillState (3000 : 0)
+New Interval needed for lightState (5000 : 0)
+The stateProbabilityCalculator for pressureState is not added to the stateManager.
+New Interval needed for sittingState (3000 : 0)
+New Interval needed for activeState (10000 : 0)
+New Interval needed for standingState (3000 : 0)
+The stateProbabilityCalculator for walkingStatespecific is not added to the stateManager.
+New Interval needed for runningState (3000 : 0)
+The stateProbabilityCalculator for upgrade is not added to the stateManager.
+DeviceRecord for type : Wear
+FeatureBatch for Feature FREQUENCY_GYROSCOPE_X is empty.
+FeatureBatch for Feature FREQUENCY_GYROSCOPE_Y is empty.
+FeatureBatch for Feature FREQUENCY_GYROSCOPE_Z is empty.
+FeatureBatch for Feature FREQUENCY_ACCELEROMETER_X is empty.
+FeatureBatch for Feature FREQUENCY_ACCELEROMETER_Y is empty.
+FeatureBatch for Feature FREQUENCY_ACCELEROMETER_Z is empty.
+StateBatch for state walkingState is empty.
+New Interval needed for stillState (3000 : 0)
+StateBatch for state lightState is empty.
+New Interval needed for activeState (10000 : 0)
+New Interval needed for typingState (2000 : 0)
+New Interval needed for runningState (3000 : 0)
+Exported re-calculated overall record to: /home/ubuntu/bp-m2-2015/Android/StateDetector/statedetection/src/test/resources/Recalculated/upgrade_cm_marvin_1468066917058_1468066922062.json
+Re-calculating device record: upgrade_cm_marvin_1468067178855_1468067183858.json
+DeviceRecord for type : Phone
+New Interval needed for FREQUENCY_ACCELEROMETER_Y (2000 : 2218)
+New Interval needed for FREQUENCY_ACCELEROMETER_Z (2000 : 2256)
+New Interval needed for FREQUENCY_GYROSCOPE_X (2000 : 2249)
+New Interval needed for FREQUENCY_GYROSCOPE_Z (2000 : 2272)
+The featureCalculator for DIRECTION_ACCELEROMETER is not added in to the featureManager.
+The featureCalculator for NUMBER_OF_STOPS is not added in to the featureManager.
+The featureCalculator for HAND_UP is not added in to the featureManager.
+New Interval needed for walkingState (1000 : 0)
+The stateProbabilityCalculator for varianceState is not added to the stateManager.
+New Interval needed for stillState (3000 : 0)
+New Interval needed for lightState (5000 : 0)
+The stateProbabilityCalculator for pressureState is not added to the stateManager.
+New Interval needed for sittingState (3000 : 0)
+New Interval needed for activeState (10000 : 0)
+New Interval needed for standingState (3000 : 0)
+The stateProbabilityCalculator for walkingStatespecific is not added to the stateManager.
+New Interval needed for runningState (3000 : 0)
+The stateProbabilityCalculator for upgrade is not added to the stateManager.
+DeviceRecord for type : Wear
+FeatureBatch for Feature FREQUENCY_GYROSCOPE_X is empty.
+FeatureBatch for Feature FREQUENCY_GYROSCOPE_Y is empty.
+FeatureBatch for Feature FREQUENCY_GYROSCOPE_Z is empty.
+FeatureBatch for Feature FREQUENCY_ACCELEROMETER_X is empty.
+FeatureBatch for Feature FREQUENCY_ACCELEROMETER_Y is empty.
+FeatureBatch for Feature FREQUENCY_ACCELEROMETER_Z is empty.
+StateBatch for state walkingState is empty.
+New Interval needed for stillState (3000 : 0)
+StateBatch for state lightState is empty.
+New Interval needed for activeState (10000 : 0)
+New Interval needed for typingState (2000 : 0)
+New Interval needed for runningState (3000 : 0)
+Exported re-calculated overall record to: /home/ubuntu/bp-m2-2015/Android/StateDetector/statedetection/src/test/resources/Recalculated/upgrade_cm_marvin_1468067178855_1468067183858.json
+Re-calculating device record: upgrade_cm_marvin_1468067208375_1468067213384.json
+DeviceRecord for type : Phone
+New Interval needed for AVERAGE_RESULTANT_ACCELEROMETER (500 : 672)
+The featureCalculator for DIRECTION_ACCELEROMETER is not added in to the featureManager.
+The featureCalculator for NUMBER_OF_STOPS is not added in to the featureManager.
+The featureCalculator for HAND_UP is not added in to the featureManager.
+New Interval needed for walkingState (1000 : 0)
+The stateProbabilityCalculator for varianceState is not added to the stateManager.
+New Interval needed for stillState (3000 : 0)
+New Interval needed for lightState (5000 : 0)
+The stateProbabilityCalculator for pressureState is not added to the stateManager.
+New Interval needed for sittingState (3000 : 0)
+New Interval needed for activeState (10000 : 0)
+New Interval needed for standingState (3000 : 0)
+The stateProbabilityCalculator for walkingStatespecific is not added to the stateManager.
+New Interval needed for runningState (3000 : 0)
+The stateProbabilityCalculator for upgrade is not added to the stateManager.
+DeviceRecord for type : Wear
+FeatureBatch for Feature FREQUENCY_GYROSCOPE_X is empty.
+FeatureBatch for Feature FREQUENCY_GYROSCOPE_Y is empty.
+FeatureBatch for Feature FREQUENCY_GYROSCOPE_Z is empty.
+FeatureBatch for Feature FREQUENCY_ACCELEROMETER_X is empty.
+FeatureBatch for Feature FREQUENCY_ACCELEROMETER_Y is empty.
+FeatureBatch for Feature FREQUENCY_ACCELEROMETER_Z is empty.
+StateBatch for state walkingState is empty.
+New Interval needed for stillState (3000 : 0)
+StateBatch for state lightState is empty.
+New Interval needed for activeState (10000 : 0)
+New Interval needed for typingState (2000 : 0)
+New Interval needed for runningState (3000 : 0)
+Exported re-calculated overall record to: /home/ubuntu/bp-m2-2015/Android/StateDetector/statedetection/src/test/resources/Recalculated/upgrade_cm_marvin_1468067208375_1468067213384.json
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.10</a> at Jul 31, 2016 3:10:16 PM</p>
+</div>
+</div>
+</body>
+</html>
